@@ -60,7 +60,7 @@ python scripts/execute_notebook.py notebooks/05-final-evaluation.ipynb
 
 ## 6. Paper source and compilation
 
-The supplied PDF is the final 55-page revision: March 2026 on the title page, separate pages for every “List of…” section and chapter, and the appendix after the reference list. You do not need LaTeX to read it.
+The supplied PDF is the final 54-page revision (ending at printed page 45): March 2026 on the title page, separate pages for every “List of…” section and chapter, and the appendix after the reference list. You do not need LaTeX to read it.
 
 Install XeLaTeX and the fonts described in [paper/final/README.md](paper/final/README.md). To compile the included typesetting source without the research dependencies, run from the project root:
 

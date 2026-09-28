@@ -2,7 +2,7 @@
 
 Open `Market-Neutral-Trading-Algorithm-Final-Paper.pdf` for the assembled paper. It follows the supplied style examples using A4 portrait pages, a 12-point Arial-compatible body, numbered headings and smaller centred captions beneath figures, tables and equations. The discussion, conclusion and reproduction appendix complete the research narrative.
 
-The revised title page reads March 2026. Every main chapter and each “List of…” section begins on a new page, and the appendix follows the reference list. The contents, caption registers and bookmarks reflect this order.
+The revised title page reads March 2026. Every main chapter and each “List of…” section begins on a new page, and the appendix follows the reference list. The contents, caption registers and bookmarks reflect this order. The current revision ends at printed page 45 (54 physical pages including front matter); Appendix A.2 and A.3 and their contents entries have been removed.
 
 The source archive includes the project, frozen research artifacts, interactive HTML companions, section files and the final typesetting source. It is a private research snapshot; the public GitHub export remains a subsequent step. The appendix explains the difference between exact offline replay and acquisition of a new data vintage.
 

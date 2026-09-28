@@ -35,8 +35,8 @@
       "sha256": "f865a67b9fd4a8eaca09f052499f1818adaf8825e427719bdf4cb79681d684a2"
     },
     "START_HERE.md": {
-      "bytes": 8126,
-      "sha256": "5d6df4058b9f53cc49cffc6d4b771cf0d0236bc9f50283a2dc29df149f94dc1d"
+      "bytes": 8154,
+      "sha256": "1fae3ea52c949b216dc6fe9192834db0e5469f77c5e33e3289b6b7c5ce6efcff"
     },
     "assets/favicon.svg": {
       "bytes": 382,
@@ -111,8 +111,8 @@
       "sha256": "e4f299620d9992cbc09464ea5e7fa7603cc40c60b394da660b6b991803682182"
     },
     "docs/release-notes.md": {
-      "bytes": 5027,
-      "sha256": "8349a0f061d544b79c1b16dfe32891cc2709333fbdec76caf8c0601bc551ef6b"
+      "bytes": 5952,
+      "sha256": "bf600420e55c03766d0a91d334e78b081cba011e1481d736fa5ec38e353b1899"
     },
     "docs/research-plan.md": {
       "bytes": 5674,
@@ -152,7 +152,7 @@
     },
     "index.html": {
       "bytes": 12701,
-      "sha256": "ac1388d036828e887223abd6823f4c15ac1157f20207c4bcadd028e65a51a185"
+      "sha256": "a80719e2eb42abd6c36d32b94bdb633fa970857acd7e98b95364c8c1db441195"
     },
     "market_neutral/__init__.py": {
       "bytes": 98,
@@ -991,16 +991,16 @@
       "sha256": "66f195b0e466bcf1f6496e45ed0a0d286576b86430f5b1d6ac64f59c7bfc9510"
     },
     "paper/final/Market-Neutral-Trading-Algorithm-Final-Paper.pdf": {
-      "bytes": 2881234,
-      "sha256": "2fd5e006ccbb6d11ee23ba97dabf44f373aeeeebbdb1d21b127b6f74d5291708"
+      "bytes": 2946173,
+      "sha256": "a30e1e866d0ef167b21cbbbb8558d71f46a904797e216e6a11cf9e727be365fc"
     },
     "paper/final/Market-Neutral-Trading-Algorithm-Final-Paper.tex": {
-      "bytes": 133514,
-      "sha256": "b48d96a12e89a9e41298d45f2641c5ffc1661756cffd4f710b7bb09a57a1f74f"
+      "bytes": 131849,
+      "sha256": "917e5b99d4391e807b20d09a9eb9b92490dc23589d532ad9d8f577edccfb6946"
     },
     "paper/final/README.md": {
-      "bytes": 4260,
-      "sha256": "497780e1069d684ee81ffbfddb80a9a1b23cfd18be2f64b1068645a759f4b516"
+      "bytes": 4416,
+      "sha256": "3323dc1f33002252d5e1fed554abbaf8b9c94326251f60f285871b543b40e708"
     },
     "paper/final/assets/figure-01.png": {
       "bytes": 108343,
@@ -1071,8 +1071,8 @@
       "sha256": "c1b06d2b9a8c58321a00e0c2c98e3d27c721d1ed4e9ef0c75d76ca13502186f0"
     },
     "paper/final/manuscript.md": {
-      "bytes": 109052,
-      "sha256": "d85be4fb1cb058b0cdd523e85f097496928077d9f80147c14150aac644a0362b"
+      "bytes": 107298,
+      "sha256": "d5533279b1993a62c912bdb6801328754c3966734f703b27899627a941e5a6af"
     },
     "paper/final/references-harvard.md": {
       "bytes": 5707,
@@ -1087,8 +1087,8 @@
       "sha256": "8845d15ba5a8ff66d5a17d8a443ed264ecb2fe5964e74d544071761d7e981826"
     },
     "paper/manuscript.md": {
-      "bytes": 109052,
-      "sha256": "d85be4fb1cb058b0cdd523e85f097496928077d9f80147c14150aac644a0362b"
+      "bytes": 107298,
+      "sha256": "d5533279b1993a62c912bdb6801328754c3966734f703b27899627a941e5a6af"
     },
     "paper/output/Market-Neutral-Trading-Algorithm-Milestone-2-Paper.pdf": {
       "bytes": 961095,
@@ -1147,8 +1147,8 @@
       "sha256": "d42c33580eb7aa12fcdb43028e7cdcb6378b00d294e7308397fe5b704fb31c86"
     },
     "paper/sections/14-reproduction-appendix.md": {
-      "bytes": 4337,
-      "sha256": "fcc3e5fbb3edc143baaf634bc96019408682a62c964a2717f4a422211a1752e2"
+      "bytes": 2735,
+      "sha256": "b6aaab34e70c19347e0e93ad46614d27367d7efb33670238b6ca15b8775ed63f"
     },
     "paper/update_manuscript.py": {
       "bytes": 7336,
@@ -1224,7 +1224,7 @@
     },
     "scripts/build_site.py": {
       "bytes": 28303,
-      "sha256": "66e858a080d5333d649f19e512a33269e173d39f95f35f5c72dc8762688f7ad8"
+      "sha256": "bd997b165bd49a3aa8ea28281e8d30eb704dff29f61ee6ec41a616dd894196ee"
     },
     "scripts/create_final_notebook.py": {
       "bytes": 16284,
@@ -1319,8 +1319,8 @@
       "sha256": "96394e8260287662025e6b195d28d35a6fa3cbd8412ad5c98513e9173c075405"
     },
     "validation/final-paper-validation.json": {
-      "bytes": 19190,
-      "sha256": "832fc2e98a45f1d90e5a6bcb8847e833df4399fc85834413f6db0b10a9e18042"
+      "bytes": 20400,
+      "sha256": "e2fc93c68019359cf44dbd7e600c68b5761f1bb0cfb1641e6bd80ee8eb4cc572"
     },
     "validation/milestone-1-package-sha256.json": {
       "bytes": 3461,

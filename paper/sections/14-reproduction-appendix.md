@@ -21,13 +21,3 @@ The editable manuscript is assembled by `python paper/update_manuscript.py` from
 ### A.1. Interactive companions
 
 The historical-correlation companion displays 120 monthly matrices. The graph-diffusion companion links 120 monthly networks to unconstrained scores. The earlier persistence companion displays 120 monthly landscapes and birth–death diagrams; the final-period companion adds 72 months covering 2020–2025. Each HTML file embeds its plotting library for offline use after download. Rotation, date selection, hover and playback support inspection of the underlying numerical objects. The PDF contains static figures; the HTML files provide the dynamic views.
-
-Numerical frame values, dates and control configuration were checked. Live browser interaction and local VS Code kernel connectivity were not exercised in the build environment and remain local setup checks. These limits concern the execution environment, whereas the saved numerical results and notebook cells were executed and verified.
-
-### A.2. Publication status and future changes
-
-The scientific evaluation and final paper are complete for the frozen design. Public GitHub publication and the CV/LinkedIn release are subsequent presentation steps. Claims should describe the implemented methods, verification and empirical findings, including the negative economic result. The evidence does not support a claim of demonstrated profitable alpha. All three research periods are observed; future model changes need newly reserved evidence.
-
-### A.3. Final document assembly
-
-The final assembly follows the author's supplied style examples while retaining the research sequence developed for this project. All pages use A4 portrait dimensions, with numbered equations and centred captions below figures, tables and equations. The build generates the contents and caption registers from the typeset document. Initial checks exposed sparse front-matter continuations and caption-box and font issues; compact register tables, explicit font selection and revised caption placement resolved them. Rendered-page inspection and position checks verify presentation separately from the numerical research. This assembly is recorded in the sixth milestone's decision log; public publication remains pending.

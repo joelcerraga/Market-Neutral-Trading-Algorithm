@@ -35,3 +35,9 @@ python scripts/package_release.py --profile all --destination ../release-build
 From the public package, use `--profile github` instead. Building the Complete profile requires all 102 original vendor input/cache files. Packaging uses a fixed ZIP timestamp and sorted paths; identical input bytes and compression environment reproduce the same archive bytes. The manifest excludes itself to avoid a circular hash.
 
 Environments, temporary render images, TeX intermediates, caches of Python bytecode, Git internals and nested ZIPs are omitted. No supplied style-example paper or unrelated personal document is part of this project release. No software licence is assigned. The project is packaged, not yet published to GitHub by this workflow.
+
+## PDF ending revision — 28 September 2026
+
+At the author's request, the final PDF's last physical page (printed page 46) has been removed, including Appendix A.2 and A.3. Their contents entries and bookmarks have also been removed. The document ends at printed page 45 and contains 54 physical pages including the front matter. The editable appendix and generated sources match this change.
+
+Deleting only the page would have left broken contents entries. The revision removes those entries while retaining the layout of every other page; 53 retained pages are text- and pixel-identical to the prior PDF. The revised contents and final page were rendered and visually inspected. The original packaging checks and historical archive hashes above retain their original context; `validation/final-paper-validation.json` and `package-manifest.json` identify the current document. No research outputs or calculations changed.
