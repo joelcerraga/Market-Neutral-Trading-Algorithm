@@ -76,4 +76,4 @@ For manuscript changes, edit `paper/sections/`, install `requirements-paper.txt`
 
 `run_research.py` is the synthetic foundation; `run_historical.py` the baseline; `run_comparison.py` the 44 earlier comparison cases; and `run_topology.py` the original descriptor study. Read notebooks 01–04 in order for their historical context. The fifth stage has now consumed the reserved test period; historical references to an untouched holdout describe that earlier stage only.
 
-Use [GITHUB_UPLOAD.md](GITHUB_UPLOAD.md) for publication. Use the GitHub archive for the repository and keep the Complete archive for personal replay. [Release notes](docs/release-notes.md) record the packaging decisions and remaining limitations.
+Use the GitHub archive for the repository and keep the Complete archive for personal replay. [Release notes](docs/release-notes.md) record the packaging decisions and remaining limitations.

@@ -10,7 +10,7 @@ A reproducible Python study of constrained equity reversal, graph diffusion and 
 2. Open the [executed final notebook](notebooks/05-final-evaluation.ipynb) for the walkthrough, implementation excerpts and replay checks.
 3. Download and open the [final 3D explorer](outputs/final/topology/Final-Test-Landscape-Explorer.html) in a browser for 72 monthly landscapes and paired birth–death diagrams. Rotation, zoom, hover, a date slider and playback are included; JavaScript is embedded for offline use. GitHub's file preview does not run the explorer.
 4. Browse the [output index](docs/OUTPUTS.md), [milestone decisions](docs/milestone-decisions.md) and [release decisions](docs/release-notes.md).
-5. Follow [START_HERE.md](START_HERE.md) for setup or [GITHUB_UPLOAD.md](GITHUB_UPLOAD.md) to publish the prepared repository.
+5. Follow [START_HERE.md](START_HERE.md) for local setup and reproduction.
 
 ![Final evaluation: performance and exposure](outputs/final/13-final-performance.png)
 
@@ -95,7 +95,7 @@ The release keeps byte-for-byte hashes and disables Git line-ending conversion t
 | `tests/`, `validation/` | Focused checks and execution/artifact evidence |
 | `.github/workflows/` | Focused test suite configured for pushes and pull requests |
 | `docs/OUTPUTS.md`, `docs/output-inventory.csv` | Browsable output guide and exhaustive output checksums |
-| `GITHUB_UPLOAD.md`, `scripts/package_release.py` | Publication instructions and reproducible archive builder |
+| `scripts/package_release.py` | Reproducible archive builder |
 
 ## Writing and remaining work
 
@@ -105,7 +105,7 @@ The final paper maintains 30 numbered equations, 27 tables, 16 figures, 15 code 
 
 `paper/update_manuscript.py` refreshes the editable text. `paper/assemble_final_paper.py` prepares and compiles the final typesetting source. Presentation checks are recorded in `validation/final-paper-validation.json`; they do not change the frozen strategy or its results.
 
-The complete archive and GitHub package are prepared; repository publication is a separate action for the author. The supplied upload guide includes a factual repository description suitable for a portfolio. Future strategy revisions require newly reserved evidence; the 2020–2025 results cannot be reused as an untouched test.
+The completed study is published in this repository. Future strategy revisions require newly reserved evidence; the 2020–2025 results cannot be reused as an untouched test.
 
 ## References
 

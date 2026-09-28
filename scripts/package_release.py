@@ -62,7 +62,7 @@ def profile_readme(profile):
         "Use the separate GitHub package for public upload."
     )
     return (f"# {PROJECT}: {profile.title()} archive\n\n{purpose}\n\n"
-            "Read `README.md`, `START_HERE.md`, `GITHUB_UPLOAD.md` and `docs/OUTPUTS.md`.\n\n"
+            "Read `README.md`, `START_HERE.md` and `docs/OUTPUTS.md`.\n\n"
             "Run `python scripts/verify_release.py` immediately after extraction to verify "
             "every listed file. The manifest excludes itself; unlisted additions are not checked.\n\n"
             f"Packaging date: {RELEASE_DATE}. The final PDF's requested cover date remains March 2026.\n")

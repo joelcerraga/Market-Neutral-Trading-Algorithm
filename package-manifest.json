@@ -4,7 +4,7 @@
   "profile": "github",
   "project": "Market-Neutral-Trading-Algorithm",
   "scope": "Every packaged file except package-manifest.json",
-  "file_count_including_manifest": 330,
+  "file_count_including_manifest": 329,
   "output_count": 175,
   "notebook_count": 5,
   "interactive_html_count": 4,
@@ -22,21 +22,17 @@
       "bytes": 374,
       "sha256": "797c9ca08813e322bcfc4bf54f0ed337a4733900821c3ca95edf7ab4f1ae537d"
     },
-    "GITHUB_UPLOAD.md": {
-      "bytes": 4751,
-      "sha256": "0e1db418b602d189fe65bd51589b083f1620dcc82c05bb37f4e6859b15671fc3"
-    },
     "PACKAGE_README.md": {
-      "bytes": 617,
-      "sha256": "8fbfec98c8a9cdd0c2dc860021c490ed408b806967e438cafe86e5487d7aa374"
+      "bytes": 597,
+      "sha256": "33ac9c00f8d590b09a245b4750548309de3d61e9f01ab544be3c1a6089b37a8f"
     },
     "README.md": {
-      "bytes": 12396,
-      "sha256": "56f08594f599f19e77c63789c974e2b43a077a8690e1f0e7c4abf208939f7278"
+      "bytes": 12140,
+      "sha256": "031df58f58bf7d09e538ea04b7fd86444a9321ef7094ed078354b40b84835e33"
     },
     "START_HERE.md": {
-      "bytes": 6703,
-      "sha256": "6a8a30bb13e1ea3694c9b6f22437d42ac288f5d97344df64feda1814b58dc0aa"
+      "bytes": 6645,
+      "sha256": "57bc6102783bc9cbae5a5258f6d73d7dd9bfeee0ee2f4a5d4d93d2daffca87cb"
     },
     "data/README.md": {
       "bytes": 2939,
@@ -1175,8 +1171,8 @@
       "sha256": "04d2b2cec3d1c3c5893ffe27a5c78cd7e377241c776b786006f0c57a594bd900"
     },
     "scripts/package_release.py": {
-      "bytes": 7011,
-      "sha256": "a928d22f5139a0ade3954960590a7a39d95568f3b6532cd9fc349c403dff700b"
+      "bytes": 6991,
+      "sha256": "837fc490b92854ac77251593971783a0546fb9235024fa7e91675cb88073ab90"
     },
     "scripts/render_final_paper.py": {
       "bytes": 2996,
