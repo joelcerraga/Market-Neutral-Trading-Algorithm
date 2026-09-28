@@ -1,0 +1,42 @@
+{
+  "protocol_sha256": "2b2d975392129a88ea10b5955dd9405be46d49ba2860f7d0e9872b0e76c926d1",
+  "input_sha256": "3dd0372d45d3939a8ade9fa218d5ec8c2fbe00ce0435c3a1c69672e756d3c2c5",
+  "generated_utc": "2026-09-21T23:52:07.969087+00:00",
+  "feature_rows": 7548,
+  "dates_per_window": 2516,
+  "windows": [
+    63,
+    126,
+    252
+  ],
+  "first_date": "2010-01-04",
+  "last_date": "2019-12-31",
+  "monthly_snapshots_per_window": 120,
+  "diagram_bound_checks": 480,
+  "feature_computation_seconds": 3.0907278140002745,
+  "phases": [
+    "development",
+    "validation"
+  ],
+  "final_holdout_acquired_or_evaluated": false,
+  "control_model_fitting": "Development only; validation is a descriptive transfer check; no return target",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "ripser": "0.6.14",
+    "persim": "0.3.8",
+    "scikit-learn": "1.8.0",
+    "plotly": "7.1.0"
+  },
+  "files": {
+    "features.csv": "956f8044c27540f181f0dbce6e78ac8a6d70fec4adf515f4cef5ef799ac87ce6",
+    "control-correlations.csv": "5f48ade8fbcf066c02be51bc1eb601845436daa73f3f780b64a20ebf350df01c",
+    "control-model-scores.csv": "45ffa3bc941d1a505d4d95391bbbefab5c443c6fb9d762efec07377a49b5b868",
+    "window-sensitivity.csv": "026f259cb9b6299f21d66235a48c65f9592a17883537383071794b88721e9a35",
+    "control-model-predictions.csv": "fb279f56ad588765617fe3161abf856e380744a7cdf33c31160de91f0e000ce3",
+    "diagram-stability.csv": "6bc6dc2744174de07d6ad36a846070f11c3427bb2659aa11a3854e73c348a786",
+    "control-models.json": "af2b16acd1fccb32f9be06d751f7087c19ff5ef0ac1b19ceb9fe2e8614138fa9",
+    "monthly-diagrams.json": "4be53d410d2af6d8de1aa78dcc2144a07e36abbf06c19b653190da210db79ef7"
+  }
+}

@@ -1,0 +1,4 @@
+-r requirements.txt
+# Final typesetting additionally requires XeLaTeX and the fonts in paper/final/README.md.
+PyMuPDF==1.26.6
+Pillow==12.3.0

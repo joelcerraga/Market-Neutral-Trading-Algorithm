@@ -1,0 +1,15 @@
+{
+  "detected_utc": "2026-09-22T00:32:39.580006+00:00",
+  "issue": "One output ledger was zero bytes despite a completed in-memory calculation and retained scenario summary.",
+  "initial_manifest": "validation/final-initial-run-manifest.json",
+  "affected_output": "final_test__graph_tau_1__fee10__borrow0.02-ledger.csv",
+  "initial_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "cause": "The exact filesystem/write cause was not established.",
+  "response": "Serialize tables to memory, verify temporary bytes, atomically replace, and verify saved bytes. Replay the locked experiment and compare every unaffected numerical-output hash.",
+  "status": "verified",
+  "unaffected_hashes_reproduced": 47,
+  "repaired_rows": 1508,
+  "repaired_sha256": "f1c8d9bba5b798ce4cb358c5d3cdd22b1711873772a7ca8b769c5d9adbbe0555",
+  "summary_sha256_unchanged": "7c3a64ab473b8da6bc9465119ea7421619fe08d5198f6e56ed719a21d8c94f08",
+  "final_protocol_sha256": "8fdee505de9ceaa8e4a2951deba29c1305eb12ee64d2d42467a978e2805c2acd"
+}

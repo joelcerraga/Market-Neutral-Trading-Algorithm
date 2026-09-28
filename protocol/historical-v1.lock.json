@@ -1,0 +1,7 @@
+{
+  "protocol_id": "historical-v1",
+  "sha256": "44735b120f38a1df806fe5f407202523b5ee8eef80755a564d648c914c75ec36",
+  "frozen_utc": "2026-09-21T21:35:26.729755+00:00",
+  "stage": "Frozen before acquiring the equity basket or inspecting baseline historical returns",
+  "registration": "Local research record; not an externally preregistered study"
+}

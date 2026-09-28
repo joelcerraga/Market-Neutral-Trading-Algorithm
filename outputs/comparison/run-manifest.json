@@ -1,0 +1,24 @@
+{
+  "protocol_sha256": "a6ab0eb4f93141acc08d8937c08a57f12c0c057ffe49d43b4c4296b5ada55a35",
+  "parent_protocol_sha256": "44735b120f38a1df806fe5f407202523b5ee8eef80755a564d648c914c75ec36",
+  "input_sha256": "3dd0372d45d3939a8ade9fa218d5ec8c2fbe00ce0435c3a1c69672e756d3c2c5",
+  "executed_utc": "2026-09-21T23:06:36.853324+00:00",
+  "completed_scenarios": 44,
+  "phases": [
+    "development",
+    "validation"
+  ],
+  "primary_model": "graph_tau_1",
+  "model_selected_after_results": false,
+  "baseline_reproduced": true,
+  "final_holdout_acquired": false,
+  "final_holdout_evaluated": false,
+  "source_sha256": {
+    "market_neutral/comparison.py": "aaa3b6691f9028633d31db14197d0d082ef85c627a46f2accbd19860c7b25cfe",
+    "market_neutral/inference.py": "e52cecdb00e30a4a563541a2248dbc0ed66a2c94b52ca3cec35dd38d50adc1bf",
+    "market_neutral/strategy.py": "ecb20de15daaec260e6de50483d03a9d5a92e69f7a86c5787985a2bf7406501a",
+    "market_neutral/graph.py": "ae8c54e1825ffc4aedd3af9c20e9145afc78d21957ba6be26ac3d5f977de3493",
+    "market_neutral/backtest.py": "441869cd4b93f7d701625d829d1a7d61df626696dfc5f9c41797321c31a0ea9a",
+    "market_neutral/portfolio.py": "9ce43cb1658f51c6057c00d5b89446818fd9ded5ca81193c405e9669299bd400"
+  }
+}

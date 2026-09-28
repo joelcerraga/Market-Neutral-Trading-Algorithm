@@ -1,0 +1,48 @@
+{
+  "protocol_id": "topology-features-v1",
+  "purpose": "Descriptive topology features and redundancy controls; no trading overlay, return prediction or candidate selection",
+  "historical_protocol_sha256": "44735b120f38a1df806fe5f407202523b5ee8eef80755a564d648c914c75ec36",
+  "input_sha256": "3dd0372d45d3939a8ade9fa218d5ec8c2fbe00ce0435c3a1c69672e756d3c2c5",
+  "allowed_phases": [
+    "development",
+    "validation"
+  ],
+  "primary_window": 126,
+  "windows": [
+    63,
+    126,
+    252
+  ],
+  "calendar": "All observed development and validation sessions, 2010-01-04 through 2019-12-31; require every declared window on every date",
+  "points": "24 assets; each represented by its demeaned unit-length trailing simple-return vector. SPY is only a volatility control.",
+  "distance": "Complete Pearson correlation distance sqrt(2*(1-rho)); include negative correlations; no trading-graph threshold or sparsification",
+  "filtration": "Vietoris-Rips with edge threshold epsilon (not ball radius); full filtration; homology dimensions 0 and 1; coefficients F2",
+  "engine": "ripser.py 0.6.14; maxdim=1, coeff=2, distance_matrix=True, thresh=infinity",
+  "features": {
+    "h0_mean": "Mean finite H0 death-minus-birth length",
+    "h0_max": "Maximum finite H0 length",
+    "h1_total": "Sum finite positive H1 lengths",
+    "h1_max": "Maximum finite H1 length, zero for empty H1"
+  },
+  "infinite_bars": "Exclude exactly one essential infinite H0 interval; require no infinite H1 interval. Preserve the essential count separately; never replace infinity by an arbitrary cap.",
+  "zero_bars": "Retain every positive lifetime output by the engine without a fitted persistence threshold; count omitted zero H0 merges if duplicate points occur",
+  "controls": [
+    "mean off-diagonal correlation",
+    "mean stock annualised sample volatility",
+    "SPY annualised sample volatility"
+  ],
+  "control_window": "Same trailing window as each topology feature; annualisation sqrt(252)",
+  "comparisons": "Within-phase Spearman correlations for all 4 features x 3 controls x 3 windows; no p-values. Descriptive OLS with intercept and three controls, centred/scaled only on development, fitted only on development, evaluated in both phases for all windows. No target portfolio returns.",
+  "r2": "1-SSE/sum((feature-phase_mean)^2); validation phase mean used only to score, not fit. Negative values retained.",
+  "window_stability": "Paired-date within-phase Spearman correlation of each alternate-window feature with the primary; all results retained.",
+  "diagram_checks": "On final observed session of each calendar month: compare 63/252 with 126 using bottleneck distance for finite H0/H1; verify d_B <= max_abs(D_alt-D_primary)+2e-6. This is a numerical bound check, not evidence of window invariance.",
+  "visualisation": "120 monthly primary-window H1 persistence diagrams and first five landscape layers over a fixed 0..2 grid. Layer rank is discrete; interpolation is visual only. Visualisation does not enter feature extraction.",
+  "causality": "Feature dated t consumes data through t only; any future overlay must shift to t+1 execution with first return t+2, following the existing ledger.",
+  "known_information": "Baseline and graph development/validation returns already known before this protocol. No historical topology feature outputs examined before lock. Local record, not external preregistration.",
+  "holdout": "Do not download, calculate topology for or evaluate 2020-2025.",
+  "non_goals": [
+    "No crash-prediction claim",
+    "No economic benefit inferred from low redundancy",
+    "No selection of best window or feature after results"
+  ]
+}

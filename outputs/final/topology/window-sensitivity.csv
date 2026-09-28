@@ -1,0 +1,9 @@
+phase,window,primary_window,feature,n,spearman
+final_test,63,126,h0_mean,1508,0.8649721241
+final_test,63,126,h0_max,1508,0.801498644119
+final_test,63,126,h1_total,1508,0.422419925264
+final_test,63,126,h1_max,1508,0.204610211911
+final_test,252,126,h0_mean,1508,0.826336400743
+final_test,252,126,h0_max,1508,0.838560927868
+final_test,252,126,h1_total,1508,0.433246436232
+final_test,252,126,h1_max,1508,0.324755869252

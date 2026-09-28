@@ -1,0 +1,60 @@
+{
+  "protocol_id": "graph-comparison-v1",
+  "milestone": 3,
+  "parent_protocol": "historical-v1",
+  "parent_sha256": "44735b120f38a1df806fe5f407202523b5ee8eef80755a564d648c914c75ec36",
+  "input_sha256": "3dd0372d45d3939a8ade9fa218d5ec8c2fbe00ce0435c3a1c69672e756d3c2c5",
+  "decision_record": "Baseline development/validation results are already known. Graph historical returns have not yet been computed in this milestone. The new settings below are fixed before that comparison.",
+  "phases": [
+    "development",
+    "validation"
+  ],
+  "new_data_acquisition": false,
+  "final_holdout_release": false,
+  "primary_graph": {
+    "correlation_window": 126,
+    "neighbours": 5,
+    "minimum_correlation": 0.2,
+    "diffusion_time": 1.0
+  },
+  "primary_trading_cost_bps": 5.0,
+  "primary_annual_borrow_rate": 0.02,
+  "cost_scenarios_bps": [
+    0.0,
+    5.0,
+    10.0,
+    20.0
+  ],
+  "diffusion_times": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "sensitivity_rule": "Evaluate all three diffusion times at all four trading fees, retaining the baseline. Secondary scenarios are descriptive; do not select a new primary model.",
+  "borrow_sensitivity": [
+    0.0,
+    0.02,
+    0.05
+  ],
+  "borrow_rule": "At 5 bps, compare baseline and primary graph at every declared borrow rate. Reuse the 2% primary results.",
+  "exposure_control": "At each decision date, scale each primary target vector down to the smaller of their two gross exposures. Compare both controls at 5 bps and 2% borrow. This controller is causal and preserves the original name caps and linear neutrality constraints.",
+  "uncertainty": {
+    "contrast": "graph_tau_1 net daily return minus baseline net daily return at 5 bps and 2% borrow",
+    "reported_estimand": "252 times the arithmetic mean paired daily difference, not CAGR difference",
+    "stationary_bootstrap_replicates": 5000,
+    "mean_block_lengths": [
+      5,
+      10,
+      20
+    ],
+    "primary_mean_block_length": 10,
+    "confidence_level": 0.95,
+    "random_seed": 20260921,
+    "hac_lags": 10,
+    "resampling_unit": "paired daily return difference within each evaluation phase, with circular continuation and geometric block lengths",
+    "limitations": "Conditional on the realised policies and selected basket. No price-path reconstruction or model refitting; pointwise approximate intervals assume adequate stationarity/weak dependence and do not correct selection or survivorship bias."
+  },
+  "comparison_gate": "Report signed return differences, costs, turnover, gross exposure, volatility and uncertainty. Improvement relative to baseline is not equivalent to profitability. No final holdout or parameter selection is permitted.",
+  "expected_backtest_rows": 44,
+  "registration": "Local hash record, not externally registered preregistration."
+}

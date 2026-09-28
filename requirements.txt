@@ -1,0 +1,8 @@
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+matplotlib==3.10.8
+plotly==7.1.0
+ripser==0.6.14
+persim==0.3.8
+scikit-learn==1.8.0

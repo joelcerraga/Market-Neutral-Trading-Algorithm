@@ -1,0 +1,84 @@
+{
+  "verified_utc": "2026-09-21T23:57:47.440433+00:00",
+  "status": "passed",
+  "feature_rows": 7548,
+  "common_dates": 2516,
+  "numerical_output_hashes_verified": 8,
+  "diagram_bound_checks": 480,
+  "pngs": {
+    "09-topology-features.png": {
+      "bytes": 355053,
+      "pixels": [
+        2040,
+        1411
+      ],
+      "sha256": "51a489c02b5e1400174d0371cc7c2456c5a831c2707ff527b179b7d6f19b9217"
+    },
+    "10-control-redundancy.png": {
+      "bytes": 129288,
+      "pixels": [
+        2040,
+        816
+      ],
+      "sha256": "6ef8a6acb5daaec90395f6aadf0c976581c243c80a6ec07ebc0fa8644fade466"
+    },
+    "11-window-sensitivity.png": {
+      "bytes": 83993,
+      "pixels": [
+        2040,
+        781
+      ],
+      "sha256": "5710a01ccb792016396ed2a0c0425afbead1f8d2e7a0b1e89ff0a38b5de6eb0c"
+    },
+    "12-persistence-landscape.png": {
+      "bytes": 233243,
+      "pixels": [
+        2040,
+        884
+      ],
+      "sha256": "642a59ac8dff56a753841c55715b7bc7c540533a7499542ecf43b9df0b40a74f"
+    }
+  },
+  "interactive_frames": 120,
+  "landscape_samples_verified": 240600,
+  "browser_interaction": "Not executed in the build environment; numerical data and HTML configuration verified",
+  "manuscript_counts": {
+    "equation": 27,
+    "table": 19,
+    "listing": 12,
+    "figure": 12
+  },
+  "harvard_references": 22,
+  "notebooks": {
+    "01-foundations.ipynb": {
+      "executed_cells": 8,
+      "errors": 0,
+      "harvard_reference_list": true
+    },
+    "02-historical-baseline.ipynb": {
+      "executed_cells": 7,
+      "errors": 0,
+      "harvard_reference_list": true
+    },
+    "03-graph-comparison.ipynb": {
+      "executed_cells": 9,
+      "errors": 0,
+      "harvard_reference_list": true
+    },
+    "04-topology-features.ipynb": {
+      "executed_cells": 10,
+      "errors": 0,
+      "harvard_reference_list": true
+    }
+  },
+  "decision_log_milestones": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "pdf_compiled": false,
+  "final_holdout_acquired_or_evaluated": false,
+  "snapshot_sha256": "3dd0372d45d3939a8ade9fa218d5ec8c2fbe00ce0435c3a1c69672e756d3c2c5",
+  "protocol_sha256": "2b2d975392129a88ea10b5955dd9405be46d49ba2860f7d0e9872b0e76c926d1"
+}

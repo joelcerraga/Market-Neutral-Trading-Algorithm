@@ -1,0 +1,46 @@
+test_circular_continuation_and_constant_series (test_comparison.ComparisonChecks.test_circular_continuation_and_constant_series) ... ok
+test_frozen_comparison_protocol_rejects_edits (test_comparison.ComparisonChecks.test_frozen_comparison_protocol_rejects_edits) ... ok
+test_hac_matches_bartlett_quadratic_form (test_comparison.ComparisonChecks.test_hac_matches_bartlett_quadratic_form) ... ok
+test_matching_gross_preserves_neutrality_and_never_levers_up (test_comparison.ComparisonChecks.test_matching_gross_preserves_neutrality_and_never_levers_up) ... ok
+test_paired_mean_interval_is_translation_equivariant (test_comparison.ComparisonChecks.test_paired_mean_interval_is_translation_equivariant) ... ok
+test_stationary_bootstrap_matches_exact_mean_variance (test_comparison.ComparisonChecks.test_stationary_bootstrap_matches_exact_mean_variance) ... ok
+test_bonferroni_tail_budget_is_the_declared_family_alpha (test_final.FinalEvaluationTests.test_bonferroni_tail_budget_is_the_declared_family_alpha) ... ok
+test_final_phase_uses_prior_close_decision_without_resetting_history (test_final.FinalEvaluationTests.test_final_phase_uses_prior_close_decision_without_resetting_history) ... ok
+test_gate_cannot_pass_on_a_relative_improvement_alone (test_final.FinalEvaluationTests.test_gate_cannot_pass_on_a_relative_improvement_alone) ... ok
+test_joint_resampling_preserves_constant_paired_difference (test_final.FinalEvaluationTests.test_joint_resampling_preserves_constant_paired_difference) ... ok
+test_overlap_ignores_constant_price_rescaling (test_final.FinalEvaluationTests.test_overlap_ignores_constant_price_rescaling) ... ok
+test_overlap_rejects_return_revision_and_calendar_deletion (test_final.FinalEvaluationTests.test_overlap_rejects_return_revision_and_calendar_deletion) ... ok
+test_historical_baseline_preserves_milestone_one_rule (test_historical.HistoricalChecks.test_historical_baseline_preserves_milestone_one_rule) ... ok
+test_parser_rejects_future_bar_and_missing_adjusted_close (test_historical.HistoricalChecks.test_parser_rejects_future_bar_and_missing_adjusted_close) ... ok
+test_parser_uses_adjusted_price_and_strips_current_quote (test_historical.HistoricalChecks.test_parser_uses_adjusted_price_and_strips_current_quote) ... ok
+test_reserved_phase_is_refused (test_historical.HistoricalChecks.test_reserved_phase_is_refused) ... ok
+test_shift_precedes_phase_slicing (test_historical.HistoricalChecks.test_shift_precedes_phase_slicing) ... ok
+test_borrow_accrues_over_calendar_weekend (test_research.ResearchChecks.test_borrow_accrues_over_calendar_weekend) ... ok
+test_constant_signal_is_preserved_and_heat_matches_expm (test_research.ResearchChecks.test_constant_signal_is_preserved_and_heat_matches_expm) ... ok
+test_decision_cannot_earn_same_or_next_close_return (test_research.ResearchChecks.test_decision_cannot_earn_same_or_next_close_return) ... ok
+test_disconnected_graph_produces_no_diffusion_residual (test_research.ResearchChecks.test_disconnected_graph_produces_no_diffusion_residual) ... ok
+test_entry_and_liquidation_fee_match_closed_form (test_research.ResearchChecks.test_entry_and_liquidation_fee_match_closed_form) ... ok
+test_full_run_accounting_and_neutrality (test_research.ResearchChecks.test_full_run_accounting_and_neutrality) ... ok
+test_future_prices_cannot_change_past_decisions (test_research.ResearchChecks.test_future_prices_cannot_change_past_decisions) ... ok
+test_graph_energy_cannot_increase_under_diffusion (test_research.ResearchChecks.test_graph_energy_cannot_increase_under_diffusion) ... ok
+test_identical_betas_and_zero_scores_are_well_defined (test_research.ResearchChecks.test_identical_betas_and_zero_scores_are_well_defined) ... ok
+test_loader_preserves_labels_and_values (test_research.ResearchChecks.test_loader_preserves_labels_and_values) ... ok
+test_neutrality_and_caps_survive_concentrated_score (test_research.ResearchChecks.test_neutrality_and_caps_survive_concentrated_score) ... ok
+test_price_drift_creates_turnover_even_when_target_unchanged (test_research.ResearchChecks.test_price_drift_creates_turnover_even_when_target_unchanged) ... ok
+test_price_loader_rejects_missing_and_unsorted_data (test_research.ResearchChecks.test_price_loader_rejects_missing_and_unsorted_data) ... ok
+test_synthetic_reproducible (test_research.ResearchChecks.test_synthetic_reproducible) ... ok
+test_correlation_distance_is_euclidean_chord_and_invariant (test_topology.TopologyTests.test_correlation_distance_is_euclidean_chord_and_invariant) ... ok
+test_development_model_reconstructs_known_relationship (test_topology.TopologyTests.test_development_model_reconstructs_known_relationship) ... ok
+test_duplicate_points_preserve_zero_merges (test_topology.TopologyTests.test_duplicate_points_preserve_zero_merges) ... ok
+test_future_changes_cannot_change_past_features (test_topology.TopologyTests.test_future_changes_cannot_change_past_features) ... ok
+test_h0_independently_matches_mst (test_topology.TopologyTests.test_h0_independently_matches_mst) ... ok
+test_invalid_geometry_is_rejected (test_topology.TopologyTests.test_invalid_geometry_is_rejected) ... ok
+test_landscape_matches_analytic_tents (test_topology.TopologyTests.test_landscape_matches_analytic_tents) ... ok
+test_small_metric_perturbation_respects_bottleneck_bound (test_topology.TopologyTests.test_small_metric_perturbation_respects_bottleneck_bound) ... ok
+test_square_has_one_loop_at_known_scales (test_topology.TopologyTests.test_square_has_one_loop_at_known_scales) ... ok
+test_triangle_fills_immediately_and_line_has_no_loop (test_topology.TopologyTests.test_triangle_fills_immediately_and_line_has_no_loop) ... ok
+
+----------------------------------------------------------------------
+Ran 41 tests in 0.292s
+
+OK

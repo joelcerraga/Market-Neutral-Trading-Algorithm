@@ -1,0 +1,10 @@
+{
+  "conditions": {
+    "positive_compound_return": false,
+    "positive_absolute_mean": false,
+    "positive_incremental_mean": false,
+    "matched_gross_robustness": false
+  },
+  "all_conditions_met": false,
+  "meaning": "A predeclared evidence screen within this survivor basket, not a deployment or population-alpha guarantee"
+}

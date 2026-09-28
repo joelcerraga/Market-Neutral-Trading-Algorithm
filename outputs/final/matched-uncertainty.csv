@@ -1,0 +1,3 @@
+contrast,method,block_or_lags,confidence_level,annualised_mean,annualised_lower,annualised_upper
+matched_graph_minus_baseline,stationary bootstrap,10,0.95,0.00210505310028,-0.0196968928751,0.0243929036679
+matched_graph_minus_baseline,Newey-West HAC,10,0.95,0.00210505310028,-0.0194335935447,0.0236436997452

@@ -1,0 +1,5 @@
+{
+  "protocol_sha256": "8fdee505de9ceaa8e4a2951deba29c1305eb12ee64d2d42467a978e2805c2acd",
+  "release_started_utc": "2026-09-22T00:09:37.356165+00:00",
+  "meaning": "Acquisition starts after the local protocol lock. The test is subsequently observed and cannot be reused as untouched."
+}

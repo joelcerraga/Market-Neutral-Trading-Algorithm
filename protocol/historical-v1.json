@@ -1,0 +1,50 @@
+{
+  "protocol_id": "historical-v1",
+  "purpose": "Exploratory fixed-basket daily US equity baseline; no population-wide alpha claim",
+  "selection_rule": "Twenty-four named surviving companies, four in each of six research groups, chosen for a transparent long-history demonstration before inspecting strategy returns. Not point-in-time constituents.",
+  "groups": {
+    "Technology": ["AAPL", "MSFT", "IBM", "ORCL"],
+    "Financials": ["JPM", "BAC", "WFC", "GS"],
+    "Energy": ["XOM", "CVX", "COP", "SLB"],
+    "Healthcare": ["JNJ", "PFE", "MRK", "UNH"],
+    "Consumer retail": ["WMT", "COST", "TGT", "HD"],
+    "Consumer brands": ["KO", "PEP", "MCD", "SBUX"]
+  },
+  "benchmark": "SPY",
+  "provider": "Yahoo Finance chart endpoint",
+  "field": "adjclose",
+  "download_start": "2009-01-01",
+  "download_end_exclusive": "2020-01-01",
+  "phases": {
+    "development": ["2010-01-01", "2016-12-31"],
+    "validation": ["2017-01-01", "2019-12-31"],
+    "final_holdout": ["2020-01-01", "2025-12-31"]
+  },
+  "allowed_phases": ["development", "validation"],
+  "execution": "Observe close t; trade at close t+1; first new-position P&L at close t+2. Reset capital and liquidate at each phase boundary.",
+  "calendar": "Require every asset to match the observed SPY session dates exactly; do not silently intersect or forward-fill",
+  "missing_data": "Reject the dataset; investigate and revise protocol explicitly if needed",
+  "liquidity_rule": "Require positive reported volume on every session. Report a 20-session dollar-volume proxy; no claim of executable capacity or historical borrow availability.",
+  "corporate_actions": "Use provider-adjusted closes; retain provider split and dividend events. No independent full corporate-action reconciliation; no separate dividend addition.",
+  "config": {
+    "assets": 24,
+    "sectors": 6,
+    "correlation_window": 126,
+    "beta_window": 126,
+    "volatility_window": 63,
+    "signal_window": 5,
+    "neighbours": 5,
+    "minimum_correlation": 0.2,
+    "diffusion_time": 1.0,
+    "gross_limit": 1.0,
+    "position_limit": 0.08,
+    "trading_cost_bps": 5.0,
+    "annual_borrow_rate": 0.02,
+    "initial_capital": 100000.0,
+    "annualisation": 252
+  },
+  "cost_scenarios_bps": [0.0, 5.0, 10.0, 20.0],
+  "parameter_search": "None in Milestone 2. All cost scenarios reported. No return-driven stock or date replacement.",
+  "holdout_policy": "Do not acquire or evaluate final-holdout bars during Milestone 2. A later protocol revision will explicitly release the final test.",
+  "limitations": ["Survivorship and selection bias", "Current-vintage adjusted data, not a point-in-time database", "One data provider", "Illustrative linear costs and uniform borrow", "No sector neutrality", "No cash interest, financing rebates or market impact"]
+}

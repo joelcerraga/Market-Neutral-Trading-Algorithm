@@ -1,0 +1,6 @@
+{
+  "input_sha256": "040f3199669d24009b848b5d1112321a70b7cb8084cb84fce6d6878a33abdcdd",
+  "recorded_utc": "2026-09-22T00:38:36.953635+00:00",
+  "protocol_sha256": "8fdee505de9ceaa8e4a2951deba29c1305eb12ee64d2d42467a978e2805c2acd",
+  "scope": "Exact audited price vintage for subsequent replay; separate from the pre-acquisition protocol lock"
+}

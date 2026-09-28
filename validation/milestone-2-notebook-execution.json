@@ -1,0 +1,9 @@
+{
+  "notebook": "notebooks/02-historical-baseline.ipynb",
+  "code_cells_executed": 7,
+  "error_outputs": 0,
+  "status": "passed",
+  "executed_utc": "2026-09-21T22:05:37.325727+00:00",
+  "execution_mode": "Sequential IPython execution in one process, with captured rich outputs",
+  "environment_note": "Kernel sockets are unavailable in this build environment. Cell logic and rich outputs were executed in process; VS Code kernel connectivity remains a local setup check."
+}

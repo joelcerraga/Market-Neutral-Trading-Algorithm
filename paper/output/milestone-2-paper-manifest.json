@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "Table": 9,
+    "Figure": 3,
+    "Equation": 15,
+    "Listing": 4
+  },
+  "references": 15,
+  "scientific_references": 14,
+  "code_sources": {
+    "market_neutral/historical.py": "f98e78439d69e605c477c82a5a466f3a4b057eb091252267511e77b1362ac17f",
+    "market_neutral/portfolio.py": "9ce43cb1658f51c6057c00d5b89446818fd9ded5ca81193c405e9669299bd400",
+    "market_neutral/backtest.py": "441869cd4b93f7d701625d829d1a7d61df626696dfc5f9c41797321c31a0ea9a"
+  }
+}

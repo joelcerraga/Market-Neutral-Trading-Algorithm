@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "python": "3.12.14",
+  "protected_original_files_unchanged": 408,
+  "git_roundtrip_files": 327,
+  "git_core_autocrlf_tested": true,
+  "new_guide_links_valid": true,
+  "notebook_error_outputs": 0,
+  "known_secret_patterns_found": 0,
+  "largest_public_file_bytes": 8753846,
+  "pinned_packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "plotly": "7.1.0",
+    "ripser": "0.6.14",
+    "persim": "0.3.8",
+    "scikit-learn": "1.8.0"
+  },
+  "verified_utc": "2026-09-28T08:51:17.174138+00:00",
+  "scope": "Packaging checks and focused/synthetic execution; no historical experiment rerun or PDF rebuild",
+  "test_count": 41,
+  "test_result": "OK",
+  "initial_test_capture_incomplete": true,
+  "test_capture_repair": "Retained initial record; required complete captured summary and atomic verified write on rerun",
+  "synthetic_smoke": {
+    "status": "passed",
+    "files": 14,
+    "output_directory": "tmp/synthetic-demo",
+    "vendor_data_used": false
+  },
+  "output_inventory_rows": 175,
+  "manifest_detects_modified_file": true,
+  "both_preliminary_extracted_profiles_verified": true,
+  "final_pdf_sha256": "2fd5e006ccbb6d11ee23ba97dabf44f373aeeeebbdb1d21b127b6f74d5291708",
+  "notes": [
+    "Git round-trip count describes the preliminary public extraction before these validation records were added.",
+    "Hosted CI, local notebook kernel and browser interaction were not newly exercised during packaging.",
+    "Archive builder checks ZIP CRC and every member byte on each final build."
+  ]
+}

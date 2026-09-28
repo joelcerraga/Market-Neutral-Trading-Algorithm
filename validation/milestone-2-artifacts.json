@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "historical_sessions": 2768,
+  "equities": 24,
+  "benchmark": "SPY",
+  "all_series_audited": 25,
+  "protocol_sha256": "44735b120f38a1df806fe5f407202523b5ee8eef80755a564d648c914c75ec36",
+  "input_sha256": "3dd0372d45d3939a8ade9fa218d5ec8c2fbe00ce0435c3a1c69672e756d3c2c5",
+  "baseline_scenarios": 8,
+  "final_holdout_evaluated": false,
+  "automated_tests": 19,
+  "notebook_code_cells": 7,
+  "pdf_pages": 22,
+  "paper_counts": {
+    "Table": 9,
+    "Figure": 3,
+    "Equation": 15,
+    "Listing": 4
+  },
+  "references": 15,
+  "scholarly_references": 14,
+  "pdf_review": "All pages rendered and visually inspected; equation/code and symbol pages inspected at higher resolution.",
+  "interactive_frames": 120,
+  "interactive_checks": "Serialized frame values, date-slider steps, Play/Pause controls, fixed correlation scale and embedded JavaScript verified. No browser runtime was available for interaction testing.",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "plotly": "7.1.0",
+    "reportlab": "4.4.9",
+    "pypdf": "6.10.0",
+    "nbformat": "5.11.1",
+    "IPython": "9.17.1"
+  },
+  "paper_source_hashes_match": true
+}

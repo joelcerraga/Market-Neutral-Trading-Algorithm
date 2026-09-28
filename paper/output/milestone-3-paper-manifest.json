@@ -1,0 +1,18 @@
+{
+  "counts": {
+    "Table": 14,
+    "Figure": 8,
+    "Equation": 21,
+    "Listing": 8
+  },
+  "references": 18,
+  "scientific_references": 17,
+  "code_sources": {
+    "market_neutral/historical.py": "f98e78439d69e605c477c82a5a466f3a4b057eb091252267511e77b1362ac17f",
+    "market_neutral/portfolio.py": "9ce43cb1658f51c6057c00d5b89446818fd9ded5ca81193c405e9669299bd400",
+    "market_neutral/backtest.py": "441869cd4b93f7d701625d829d1a7d61df626696dfc5f9c41797321c31a0ea9a",
+    "market_neutral/comparison.py": "aaa3b6691f9028633d31db14197d0d082ef85c627a46f2accbd19860c7b25cfe",
+    "market_neutral/inference.py": "e52cecdb00e30a4a563541a2248dbc0ed66a2c94b52ca3cec35dd38d50adc1bf",
+    "market_neutral/strategy.py": "ecb20de15daaec260e6de50483d03a9d5a92e69f7a86c5787985a2bf7406501a"
+  }
+}

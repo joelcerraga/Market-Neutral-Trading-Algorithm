@@ -1,0 +1,5816 @@
+{
+  "protocol_sha256": "44735b120f38a1df806fe5f407202523b5ee8eef80755a564d648c914c75ec36",
+  "provider": "Yahoo Finance chart endpoint",
+  "field": "adjclose",
+  "final_holdout_bars_acquired": false,
+  "files": [
+    {
+      "symbol": "AAPL",
+      "currency": "USD",
+      "exchange": "NMS",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2012-08-09",
+          "amount": 0.094643
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-11-07",
+          "amount": 0.094643
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-02-07",
+          "amount": 0.094643
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-05-09",
+          "amount": 0.108929
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-08-08",
+          "amount": 0.108929
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-11-06",
+          "amount": 0.108929
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-02-06",
+          "amount": 0.108929
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-05-08",
+          "amount": 0.1175
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-08-07",
+          "amount": 0.1175
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-11-06",
+          "amount": 0.1175
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-02-05",
+          "amount": 0.1175
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-05-07",
+          "amount": 0.13
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-08-06",
+          "amount": 0.13
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-11-05",
+          "amount": 0.13
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-02-04",
+          "amount": 0.13
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-05-05",
+          "amount": 0.1425
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-08-04",
+          "amount": 0.1425
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-11-03",
+          "amount": 0.1425
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-02-09",
+          "amount": 0.1425
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-05-11",
+          "amount": 0.1575
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-08-10",
+          "amount": 0.1575
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-11-10",
+          "amount": 0.1575
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-02-09",
+          "amount": 0.1575
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-05-11",
+          "amount": 0.1825
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-08-10",
+          "amount": 0.1825
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-11-08",
+          "amount": 0.1825
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-02-08",
+          "amount": 0.1825
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-05-10",
+          "amount": 0.1925
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-08-09",
+          "amount": 0.1925
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-11-07",
+          "amount": 0.1925
+        },
+        {
+          "kind": "splits",
+          "date": "2014-06-09",
+          "numerator": 7.0,
+          "denominator": 1.0,
+          "splitRatio": "7:1"
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:35:35.690401+00:00",
+      "raw_response_sha256": "f8a71bbe506fac7bdc5e9a573aa74191c5824dab6f52cbf13412a3f4f241ea2a",
+      "csv_sha256": "f5540c6a6f1c5ef84fe6f671a39e7132df3626e3043ecb2f47f8f22dad7f0906",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "MSFT",
+      "currency": "USD",
+      "exchange": "NMS",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-02-17",
+          "amount": 0.13
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-05-19",
+          "amount": 0.13
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-08-18",
+          "amount": 0.13
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-11-17",
+          "amount": 0.13
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-02-16",
+          "amount": 0.13
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-05-18",
+          "amount": 0.13
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-08-17",
+          "amount": 0.13
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-11-16",
+          "amount": 0.16
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-02-15",
+          "amount": 0.16
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-05-17",
+          "amount": 0.16
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-08-16",
+          "amount": 0.16
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-11-15",
+          "amount": 0.2
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-02-14",
+          "amount": 0.2
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-05-15",
+          "amount": 0.2
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-08-14",
+          "amount": 0.2
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-11-13",
+          "amount": 0.23
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-02-19",
+          "amount": 0.23
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-05-14",
+          "amount": 0.23
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-08-13",
+          "amount": 0.23
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-11-19",
+          "amount": 0.28
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-02-18",
+          "amount": 0.28
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-05-13",
+          "amount": 0.28
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-08-19",
+          "amount": 0.28
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-11-18",
+          "amount": 0.31
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-02-17",
+          "amount": 0.31
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-05-19",
+          "amount": 0.31
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-08-18",
+          "amount": 0.31
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-11-17",
+          "amount": 0.36
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-02-16",
+          "amount": 0.36
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-05-17",
+          "amount": 0.36
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-08-16",
+          "amount": 0.36
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-11-15",
+          "amount": 0.39
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-02-14",
+          "amount": 0.39
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-05-16",
+          "amount": 0.39
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-08-15",
+          "amount": 0.39
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-11-15",
+          "amount": 0.42
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-02-14",
+          "amount": 0.42
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-05-16",
+          "amount": 0.42
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-08-15",
+          "amount": 0.42
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-11-14",
+          "amount": 0.46
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-02-20",
+          "amount": 0.46
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-05-15",
+          "amount": 0.46
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-08-14",
+          "amount": 0.46
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-11-20",
+          "amount": 0.51
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:35:35.685410+00:00",
+      "raw_response_sha256": "a4f17f9de8d645b197b4071b946c1b23492400c09c6ec75562638778aacd0a0b",
+      "csv_sha256": "4e1a53e09cd5584338a4cc1a95f6e82994e3a2f14baec79225541b62cf13630e",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "IBM",
+      "currency": "USD",
+      "exchange": "NYQ",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-02-06",
+          "amount": 0.478011
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-05-06",
+          "amount": 0.525813
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-08-06",
+          "amount": 0.525813
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-11-06",
+          "amount": 0.525813
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-02-08",
+          "amount": 0.525813
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-05-06",
+          "amount": 0.621415
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-08-06",
+          "amount": 0.621415
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-11-08",
+          "amount": 0.621415
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-02-08",
+          "amount": 0.621415
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-05-06",
+          "amount": 0.717017
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-08-08",
+          "amount": 0.717017
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-11-08",
+          "amount": 0.717017
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-02-08",
+          "amount": 0.717017
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-05-08",
+          "amount": 0.81262
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-08-08",
+          "amount": 0.81262
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-11-07",
+          "amount": 0.81262
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-02-06",
+          "amount": 0.81262
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-05-08",
+          "amount": 0.908222
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-08-07",
+          "amount": 0.908222
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-11-06",
+          "amount": 0.908222
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-02-06",
+          "amount": 0.908222
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-05-07",
+          "amount": 1.051625
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-08-06",
+          "amount": 1.051625
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-11-06",
+          "amount": 1.051625
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-02-06",
+          "amount": 1.051625
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-05-06",
+          "amount": 1.24283
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-08-06",
+          "amount": 1.24283
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-11-06",
+          "amount": 1.24283
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-02-08",
+          "amount": 1.24283
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-05-06",
+          "amount": 1.338432
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-08-08",
+          "amount": 1.338432
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-11-08",
+          "amount": 1.338432
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-02-08",
+          "amount": 1.338432
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-05-08",
+          "amount": 1.434034
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-08-08",
+          "amount": 1.434034
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-11-09",
+          "amount": 1.434034
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-02-08",
+          "amount": 1.434034
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-05-09",
+          "amount": 1.500956
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-08-09",
+          "amount": 1.500956
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-11-08",
+          "amount": 1.500956
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-02-07",
+          "amount": 1.500956
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-05-09",
+          "amount": 1.548757
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-08-08",
+          "amount": 1.548757
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-11-07",
+          "amount": 1.548757
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/IBM?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:35:35.849487+00:00",
+      "raw_response_sha256": "67b85230385fc15aeea5dfcf1ac13547e1f06457debfdb2739b1b541fa716c26",
+      "csv_sha256": "5d6964a114a8706a9c19376c8b34ec95b90e9cba9cecba5bc2fc70a6e4ba37fd",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "ORCL",
+      "currency": "USD",
+      "exchange": "NYQ",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-04-06",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-07-13",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-10-09",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-01-14",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-04-12",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-07-12",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-10-04",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-01-14",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-04-11",
+          "amount": 0.06
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-07-11",
+          "amount": 0.06
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-10-07",
+          "amount": 0.06
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-01-09",
+          "amount": 0.06
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-04-09",
+          "amount": 0.06
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-07-11",
+          "amount": 0.06
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-10-10",
+          "amount": 0.06
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-12-12",
+          "amount": 0.18
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-07-10",
+          "amount": 0.12
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-10-04",
+          "amount": 0.12
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-01-03",
+          "amount": 0.12
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-04-04",
+          "amount": 0.12
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-07-07",
+          "amount": 0.12
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-10-06",
+          "amount": 0.12
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-01-05",
+          "amount": 0.12
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-04-02",
+          "amount": 0.15
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-07-06",
+          "amount": 0.15
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-10-09",
+          "amount": 0.15
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-01-04",
+          "amount": 0.15
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-04-12",
+          "amount": 0.15
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-07-01",
+          "amount": 0.15
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-10-07",
+          "amount": 0.15
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-01-03",
+          "amount": 0.15
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-04-10",
+          "amount": 0.19
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-07-17",
+          "amount": 0.19
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-10-10",
+          "amount": 0.19
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-01-09",
+          "amount": 0.19
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-04-16",
+          "amount": 0.19
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-07-16",
+          "amount": 0.19
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-10-15",
+          "amount": 0.19
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-01-15",
+          "amount": 0.19
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-04-10",
+          "amount": 0.24
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-07-16",
+          "amount": 0.24
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-10-09",
+          "amount": 0.24
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/ORCL?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:35:35.693299+00:00",
+      "raw_response_sha256": "73d40302df9c86eaa1b2f180f8fad9ea5f66db321eedfd877965afa9c7124b5e",
+      "csv_sha256": "790fd13faf772a960e29cee861766742082e35eec1e2d015a40d475226fa03c6",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "JPM",
+      "currency": "USD",
+      "exchange": "NYQ",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-01-02",
+          "amount": 0.38
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-04-02",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-07-01",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-10-02",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-01-04",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-04-01",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-07-01",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-10-04",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-01-04",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-04-04",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-07-01",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-10-04",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-01-04",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-04-03",
+          "amount": 0.3
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-07-03",
+          "amount": 0.3
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-10-03",
+          "amount": 0.3
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-01-02",
+          "amount": 0.3
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-04-03",
+          "amount": 0.3
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-07-02",
+          "amount": 0.38
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-10-02",
+          "amount": 0.38
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-01-02",
+          "amount": 0.38
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-04-02",
+          "amount": 0.38
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-07-01",
+          "amount": 0.4
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-10-02",
+          "amount": 0.4
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-01-02",
+          "amount": 0.4
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-04-01",
+          "amount": 0.4
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-07-01",
+          "amount": 0.44
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-10-02",
+          "amount": 0.44
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-01-04",
+          "amount": 0.44
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-04-04",
+          "amount": 0.44
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-07-01",
+          "amount": 0.48
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-10-04",
+          "amount": 0.48
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-01-04",
+          "amount": 0.48
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-04-04",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-07-03",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-10-05",
+          "amount": 0.56
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-01-04",
+          "amount": 0.56
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-04-05",
+          "amount": 0.56
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-07-05",
+          "amount": 0.56
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-10-04",
+          "amount": 0.8
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-01-03",
+          "amount": 0.8
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-04-04",
+          "amount": 0.8
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-07-03",
+          "amount": 0.8
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-10-03",
+          "amount": 0.9
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/JPM?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:35:44.823516+00:00",
+      "raw_response_sha256": "a4e371a5ef1f5bddc956740285c378875386a2db3fc37f681cc493f2696b6d58",
+      "csv_sha256": "aa3ac90e9f272a30f66aa9bc70c7191d88543c39cf857a40924ea49e9ccd55f2",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "BAC",
+      "currency": "USD",
+      "exchange": "NYQ",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-03-04",
+          "amount": 0.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-06-03",
+          "amount": 0.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-09-02",
+          "amount": 0.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-12-02",
+          "amount": 0.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-03-03",
+          "amount": 0.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-06-02",
+          "amount": 0.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-09-01",
+          "amount": 0.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-12-01",
+          "amount": 0.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-03-02",
+          "amount": 0.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-06-01",
+          "amount": 0.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-08-31",
+          "amount": 0.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-11-30",
+          "amount": 0.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-02-29",
+          "amount": 0.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-05-30",
+          "amount": 0.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-09-05",
+          "amount": 0.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-12-05",
+          "amount": 0.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-02-27",
+          "amount": 0.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-06-05",
+          "amount": 0.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-09-04",
+          "amount": 0.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-12-04",
+          "amount": 0.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-03-05",
+          "amount": 0.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-06-20",
+          "amount": 0.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-09-03",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-12-03",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-03-04",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-06-03",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-09-02",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-12-02",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-03-02",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-06-01",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-08-31",
+          "amount": 0.075
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-11-30",
+          "amount": 0.075
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-03-01",
+          "amount": 0.075
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-05-31",
+          "amount": 0.075
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-08-30",
+          "amount": 0.12
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-11-30",
+          "amount": 0.12
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-03-01",
+          "amount": 0.12
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-05-31",
+          "amount": 0.12
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-09-06",
+          "amount": 0.15
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-12-06",
+          "amount": 0.15
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-02-28",
+          "amount": 0.15
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-06-06",
+          "amount": 0.15
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-09-05",
+          "amount": 0.18
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-12-05",
+          "amount": 0.18
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BAC?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:35:44.803933+00:00",
+      "raw_response_sha256": "aa3f6078b0cb9d9d6a89d5ec3b52ef16df13ea771b287f65959fdc898be29b9f",
+      "csv_sha256": "cab638b02f35d19c00f9b53b5667faeba3601b56152a0e6178fe62e0668c8883",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "WFC",
+      "currency": "USD",
+      "exchange": "NYQ",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-02-04",
+          "amount": 0.34
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-05-06",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-08-05",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-11-04",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-02-03",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-05-05",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-08-04",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-11-03",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-02-02",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-03-24",
+          "amount": 0.07
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-05-04",
+          "amount": 0.12
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-08-03",
+          "amount": 0.12
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-11-02",
+          "amount": 0.12
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-02-01",
+          "amount": 0.12
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-03-22",
+          "amount": 0.1
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-05-02",
+          "amount": 0.22
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-08-08",
+          "amount": 0.22
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-11-07",
+          "amount": 0.22
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-01-30",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-05-08",
+          "amount": 0.3
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-08-07",
+          "amount": 0.3
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-11-06",
+          "amount": 0.3
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-02-05",
+          "amount": 0.3
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-05-07",
+          "amount": 0.35
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-08-06",
+          "amount": 0.35
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-11-05",
+          "amount": 0.35
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-02-04",
+          "amount": 0.35
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-05-06",
+          "amount": 0.375
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-08-05",
+          "amount": 0.375
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-11-04",
+          "amount": 0.375
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-02-03",
+          "amount": 0.375
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-05-04",
+          "amount": 0.38
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-08-03",
+          "amount": 0.38
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-11-02",
+          "amount": 0.38
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-02-01",
+          "amount": 0.38
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-05-03",
+          "amount": 0.38
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-08-02",
+          "amount": 0.39
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-11-02",
+          "amount": 0.39
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-02-01",
+          "amount": 0.39
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-05-03",
+          "amount": 0.39
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-08-09",
+          "amount": 0.43
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-11-08",
+          "amount": 0.43
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-01-31",
+          "amount": 0.45
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-05-09",
+          "amount": 0.45
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-08-08",
+          "amount": 0.51
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-11-07",
+          "amount": 0.51
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/WFC?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:35:45.041482+00:00",
+      "raw_response_sha256": "2eacfc5e9c2fbdfbe47998a4b4025386fc66cf558d7a55b62ad8ab1f8ddaf5ef",
+      "csv_sha256": "93170b2631f751c6e0590aae87c462cdb3c9e83b4a2ace4a1dc2ff8a84184ecc",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "GS",
+      "currency": "USD",
+      "exchange": "NYQ",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-02-20",
+          "amount": 0.467
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-05-21",
+          "amount": 0.35
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-08-21",
+          "amount": 0.35
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-11-30",
+          "amount": 0.35
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-02-26",
+          "amount": 0.35
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-05-27",
+          "amount": 0.35
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-08-30",
+          "amount": 0.35
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-11-30",
+          "amount": 0.35
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-02-28",
+          "amount": 0.35
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-05-27",
+          "amount": 0.35
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-08-30",
+          "amount": 0.35
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-11-29",
+          "amount": 0.35
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-02-28",
+          "amount": 0.35
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-05-29",
+          "amount": 0.46
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-08-28",
+          "amount": 0.46
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-11-28",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-02-26",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-05-28",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-08-28",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-11-27",
+          "amount": 0.55
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-02-26",
+          "amount": 0.55
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-05-28",
+          "amount": 0.55
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-08-27",
+          "amount": 0.55
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-11-28",
+          "amount": 0.6
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-02-26",
+          "amount": 0.6
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-05-28",
+          "amount": 0.65
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-08-28",
+          "amount": 0.65
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-11-30",
+          "amount": 0.65
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-02-29",
+          "amount": 0.65
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-05-27",
+          "amount": 0.65
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-08-30",
+          "amount": 0.65
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-11-29",
+          "amount": 0.65
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-02-28",
+          "amount": 0.65
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-05-30",
+          "amount": 0.75
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-08-29",
+          "amount": 0.75
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-11-29",
+          "amount": 0.75
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-02-28",
+          "amount": 0.75
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-05-30",
+          "amount": 0.8
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-08-29",
+          "amount": 0.8
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-11-29",
+          "amount": 0.8
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-02-27",
+          "amount": 0.8
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-05-29",
+          "amount": 0.85
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-08-29",
+          "amount": 1.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-11-29",
+          "amount": 1.25
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/GS?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:35:45.064942+00:00",
+      "raw_response_sha256": "8a6da69454b4d2509a7ff6ad480f328335d720bf608ab7aa09460dd49f90253d",
+      "csv_sha256": "e59da8506fb00818fed2e238a78991816c1734436a9bede3911e0542f46c2e79",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "XOM",
+      "currency": "USD",
+      "exchange": "NYQ",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-02-06",
+          "amount": 0.4
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-05-11",
+          "amount": 0.42
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-08-11",
+          "amount": 0.42
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-11-09",
+          "amount": 0.42
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-02-08",
+          "amount": 0.42
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-05-11",
+          "amount": 0.44
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-08-11",
+          "amount": 0.44
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-11-09",
+          "amount": 0.44
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-02-08",
+          "amount": 0.44
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-05-11",
+          "amount": 0.47
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-08-10",
+          "amount": 0.47
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-11-08",
+          "amount": 0.47
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-02-08",
+          "amount": 0.47
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-05-10",
+          "amount": 0.57
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-08-09",
+          "amount": 0.57
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-11-07",
+          "amount": 0.57
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-02-07",
+          "amount": 0.57
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-05-09",
+          "amount": 0.63
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-08-09",
+          "amount": 0.63
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-11-07",
+          "amount": 0.63
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-02-06",
+          "amount": 0.63
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-05-09",
+          "amount": 0.69
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-08-11",
+          "amount": 0.69
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-11-07",
+          "amount": 0.69
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-02-06",
+          "amount": 0.69
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-05-11",
+          "amount": 0.73
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-08-11",
+          "amount": 0.73
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-11-09",
+          "amount": 0.73
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-02-09",
+          "amount": 0.73
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-05-11",
+          "amount": 0.75
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-08-10",
+          "amount": 0.75
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-11-08",
+          "amount": 0.75
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-02-08",
+          "amount": 0.75
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-05-10",
+          "amount": 0.77
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-08-10",
+          "amount": 0.77
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-11-10",
+          "amount": 0.77
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-02-09",
+          "amount": 0.77
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-05-11",
+          "amount": 0.82
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-08-10",
+          "amount": 0.82
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-11-09",
+          "amount": 0.82
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-02-08",
+          "amount": 0.82
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-05-10",
+          "amount": 0.87
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-08-12",
+          "amount": 0.87
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-11-08",
+          "amount": 0.87
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/XOM?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:35:53.324841+00:00",
+      "raw_response_sha256": "29720dc5ee209e311b29339890df1212d876df45ae2a2eb9ce98ab96c4f6f669",
+      "csv_sha256": "8bde5d76e96f6c1292eb0fb774e755b39bdfb080ea38e4c56f42409ad3070a53",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "CVX",
+      "currency": "USD",
+      "exchange": "NYQ",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-02-12",
+          "amount": 0.65
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-05-15",
+          "amount": 0.65
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-08-17",
+          "amount": 0.68
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-11-16",
+          "amount": 0.68
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-02-12",
+          "amount": 0.68
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-05-17",
+          "amount": 0.72
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-08-17",
+          "amount": 0.72
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-11-16",
+          "amount": 0.72
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-02-14",
+          "amount": 0.72
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-05-17",
+          "amount": 0.78
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-08-17",
+          "amount": 0.78
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-11-16",
+          "amount": 0.81
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-02-15",
+          "amount": 0.81
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-05-16",
+          "amount": 0.9
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-08-15",
+          "amount": 0.9
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-11-14",
+          "amount": 0.9
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-02-13",
+          "amount": 0.9
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-05-15",
+          "amount": 1.0
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-08-15",
+          "amount": 1.0
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-11-14",
+          "amount": 1.0
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-02-12",
+          "amount": 1.0
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-05-15",
+          "amount": 1.07
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-08-15",
+          "amount": 1.07
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-11-14",
+          "amount": 1.07
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-02-12",
+          "amount": 1.07
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-05-15",
+          "amount": 1.07
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-08-17",
+          "amount": 1.07
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-11-16",
+          "amount": 1.07
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-02-16",
+          "amount": 1.07
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-05-17",
+          "amount": 1.07
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-08-17",
+          "amount": 1.07
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-11-16",
+          "amount": 1.08
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-02-14",
+          "amount": 1.08
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-05-17",
+          "amount": 1.08
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-08-16",
+          "amount": 1.08
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-11-16",
+          "amount": 1.08
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-02-15",
+          "amount": 1.12
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-05-17",
+          "amount": 1.12
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-08-16",
+          "amount": 1.12
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-11-15",
+          "amount": 1.12
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-02-14",
+          "amount": 1.19
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-05-16",
+          "amount": 1.19
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-08-16",
+          "amount": 1.19
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-11-15",
+          "amount": 1.19
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CVX?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:35:53.394229+00:00",
+      "raw_response_sha256": "c02c0796b78841a50aae26b1b5d6cb974e09bc6bcb7bca3313313a3dc8dbd820",
+      "csv_sha256": "7d116419f62219b13a768cc9640c1b9a9cf98f8681a65fd054d272fb5f242f64",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "COP",
+      "currency": "USD",
+      "exchange": "NYQ",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-02-19",
+          "amount": 0.358289
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-05-21",
+          "amount": 0.358289
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-07-29",
+          "amount": 0.358289
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-10-28",
+          "amount": 0.381158
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-02-18",
+          "amount": 0.381158
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-05-20",
+          "amount": 0.419274
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-07-29",
+          "amount": 0.419274
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-10-27",
+          "amount": 0.419274
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-02-17",
+          "amount": 0.503129
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-05-19",
+          "amount": 0.503129
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-07-21",
+          "amount": 0.503129
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-10-13",
+          "amount": 0.503129
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-02-16",
+          "amount": 0.503129
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-05-17",
+          "amount": 0.66
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-07-19",
+          "amount": 0.66
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-10-11",
+          "amount": 0.66
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-02-14",
+          "amount": 0.66
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-05-22",
+          "amount": 0.66
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-07-18",
+          "amount": 0.69
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-10-10",
+          "amount": 0.69
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-02-13",
+          "amount": 0.69
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-05-21",
+          "amount": 0.69
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-07-17",
+          "amount": 0.73
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-10-09",
+          "amount": 0.73
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-02-12",
+          "amount": 0.73
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-05-20",
+          "amount": 0.73
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-07-23",
+          "amount": 0.74
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-10-15",
+          "amount": 0.74
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-02-11",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-05-18",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-07-21",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-10-13",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-02-10",
+          "amount": 0.265
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-05-11",
+          "amount": 0.265
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-07-20",
+          "amount": 0.265
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-10-13",
+          "amount": 0.265
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-02-09",
+          "amount": 0.285
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-05-11",
+          "amount": 0.285
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-07-20",
+          "amount": 0.285
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-10-12",
+          "amount": 0.305
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-02-08",
+          "amount": 0.305
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-05-10",
+          "amount": 0.305
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-07-19",
+          "amount": 0.305
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-10-16",
+          "amount": 0.42
+        },
+        {
+          "kind": "splits",
+          "date": "2012-05-01",
+          "numerator": 1311791.0,
+          "denominator": 1000000.0,
+          "splitRatio": "1311791:1000000"
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/COP?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:35:53.366461+00:00",
+      "raw_response_sha256": "d8a6c9f342bd3535a7005f791b327e6a09953f9af5a54acd9c54605706839503",
+      "csv_sha256": "5d3fed24b52257379a54ce2c1838297e79ada963e44def5f37c84d34791fe5fc",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "SLB",
+      "currency": "USD",
+      "exchange": "NYQ",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-02-13",
+          "amount": 0.21
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-06-01",
+          "amount": 0.21
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-08-31",
+          "amount": 0.21
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-11-30",
+          "amount": 0.21
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-02-12",
+          "amount": 0.21
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-05-28",
+          "amount": 0.21
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-08-30",
+          "amount": 0.21
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-11-29",
+          "amount": 0.21
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-02-14",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-05-27",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-08-30",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-11-29",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-02-17",
+          "amount": 0.275
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-05-30",
+          "amount": 0.275
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-08-29",
+          "amount": 0.275
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-11-29",
+          "amount": 0.275
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-02-15",
+          "amount": 0.313
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-06-03",
+          "amount": 0.313
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-08-30",
+          "amount": 0.313
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-12-02",
+          "amount": 0.313
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-02-14",
+          "amount": 0.4
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-06-02",
+          "amount": 0.4
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-08-29",
+          "amount": 0.4
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-12-01",
+          "amount": 0.4
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-02-09",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-06-01",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-08-31",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-11-30",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-02-12",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-05-27",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-09-02",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-12-05",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-02-13",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-05-30",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-09-01",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-12-05",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-02-06",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-06-05",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-09-04",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-12-04",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-02-12",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-06-04",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-09-03",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-12-03",
+          "amount": 0.5
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SLB?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:35:53.491887+00:00",
+      "raw_response_sha256": "b3c50e3a0dea2681ba76585a735cc797d743e3a70cfc0bc8e1b499cbccdeb827",
+      "csv_sha256": "e56a23a15d8c5d2c70cecf0d57aef90d03d480f7368890db8855e01ca5eacab2",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "JNJ",
+      "currency": "USD",
+      "exchange": "NYQ",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-02-20",
+          "amount": 0.46
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-05-21",
+          "amount": 0.49
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-08-21",
+          "amount": 0.49
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-11-20",
+          "amount": 0.49
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-02-19",
+          "amount": 0.49
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-05-27",
+          "amount": 0.54
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-08-27",
+          "amount": 0.54
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-11-26",
+          "amount": 0.54
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-02-25",
+          "amount": 0.54
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-05-26",
+          "amount": 0.57
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-08-26",
+          "amount": 0.57
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-11-25",
+          "amount": 0.57
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-02-24",
+          "amount": 0.57
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-05-24",
+          "amount": 0.61
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-08-24",
+          "amount": 0.61
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-11-23",
+          "amount": 0.61
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-02-22",
+          "amount": 0.61
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-05-23",
+          "amount": 0.66
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-08-23",
+          "amount": 0.66
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-11-22",
+          "amount": 0.66
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-02-21",
+          "amount": 0.66
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-05-22",
+          "amount": 0.7
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-08-22",
+          "amount": 0.7
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-11-21",
+          "amount": 0.7
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-02-20",
+          "amount": 0.7
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-05-21",
+          "amount": 0.75
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-08-21",
+          "amount": 0.75
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-11-20",
+          "amount": 0.75
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-02-19",
+          "amount": 0.75
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-05-20",
+          "amount": 0.8
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-08-19",
+          "amount": 0.8
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-11-18",
+          "amount": 0.8
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-02-24",
+          "amount": 0.8
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-05-25",
+          "amount": 0.84
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-08-25",
+          "amount": 0.84
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-11-27",
+          "amount": 0.84
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-02-26",
+          "amount": 0.84
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-05-25",
+          "amount": 0.9
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-08-27",
+          "amount": 0.9
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-11-26",
+          "amount": 0.9
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-02-25",
+          "amount": 0.9
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-05-24",
+          "amount": 0.95
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-08-26",
+          "amount": 0.95
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-11-25",
+          "amount": 0.95
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/JNJ?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:36:01.705012+00:00",
+      "raw_response_sha256": "1dbee33c2272afd0d541f70243b13bc78eb4f9184dcd9ef2b855fa75357db134",
+      "csv_sha256": "81e926f681cca6905af5d75bed34a55120d7c35f9b3a2dbaf35d83998ae0917f",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "PFE",
+      "currency": "USD",
+      "exchange": "NYQ",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-02-04",
+          "amount": 0.303605
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-05-06",
+          "amount": 0.151803
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-08-05",
+          "amount": 0.151803
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-11-04",
+          "amount": 0.151803
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-02-03",
+          "amount": 0.170778
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-05-05",
+          "amount": 0.170778
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-08-04",
+          "amount": 0.170778
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-11-04",
+          "amount": 0.170778
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-02-02",
+          "amount": 0.189753
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-05-11",
+          "amount": 0.189753
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-08-03",
+          "amount": 0.189753
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-11-08",
+          "amount": 0.189753
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-02-01",
+          "amount": 0.208729
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-05-09",
+          "amount": 0.208729
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-08-01",
+          "amount": 0.208729
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-11-07",
+          "amount": 0.208729
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-01-30",
+          "amount": 0.227704
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-05-08",
+          "amount": 0.227704
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-07-31",
+          "amount": 0.227704
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-11-06",
+          "amount": 0.227704
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-02-05",
+          "amount": 0.246679
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-05-07",
+          "amount": 0.246679
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-07-30",
+          "amount": 0.246679
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-11-05",
+          "amount": 0.246679
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-02-04",
+          "amount": 0.265655
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-05-06",
+          "amount": 0.265655
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-08-05",
+          "amount": 0.265655
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-11-04",
+          "amount": 0.265655
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-02-03",
+          "amount": 0.28463
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-05-11",
+          "amount": 0.28463
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-08-03",
+          "amount": 0.28463
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-11-08",
+          "amount": 0.28463
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-02-01",
+          "amount": 0.303605
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-05-10",
+          "amount": 0.303605
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-08-02",
+          "amount": 0.303605
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-11-09",
+          "amount": 0.303605
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-02-01",
+          "amount": 0.322581
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-05-10",
+          "amount": 0.322581
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-08-02",
+          "amount": 0.322581
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-11-08",
+          "amount": 0.322581
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-01-31",
+          "amount": 0.341556
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-05-09",
+          "amount": 0.341556
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-08-01",
+          "amount": 0.341556
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-11-07",
+          "amount": 0.341556
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/PFE?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:36:01.834925+00:00",
+      "raw_response_sha256": "93ae3eac258604dddc0f76de5df2822e40252299333f5eba1e2aec95ec3d79c1",
+      "csv_sha256": "47c2cee5f2f40c679adf225f924c2a08be375fdaf1738734265f9e85a1da71d4",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "MRK",
+      "currency": "USD",
+      "exchange": "NYQ",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-03-04",
+          "amount": 0.362595
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-06-04",
+          "amount": 0.362595
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-09-02",
+          "amount": 0.362595
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-12-11",
+          "amount": 0.362595
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-03-11",
+          "amount": 0.362595
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-06-11",
+          "amount": 0.362595
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-09-13",
+          "amount": 0.362595
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-12-13",
+          "amount": 0.362595
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-03-11",
+          "amount": 0.362595
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-06-13",
+          "amount": 0.362595
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-09-13",
+          "amount": 0.362595
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-12-13",
+          "amount": 0.400763
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-03-13",
+          "amount": 0.400763
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-06-13",
+          "amount": 0.400763
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-09-13",
+          "amount": 0.400763
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-12-13",
+          "amount": 0.410305
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-03-13",
+          "amount": 0.410305
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-06-13",
+          "amount": 0.410305
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-09-12",
+          "amount": 0.410305
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-12-12",
+          "amount": 0.419847
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-03-13",
+          "amount": 0.419847
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-06-12",
+          "amount": 0.419847
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-09-11",
+          "amount": 0.419847
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-12-11",
+          "amount": 0.429389
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-03-12",
+          "amount": 0.429389
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-06-11",
+          "amount": 0.429389
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-09-11",
+          "amount": 0.429389
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-12-11",
+          "amount": 0.438931
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-03-11",
+          "amount": 0.438931
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-06-13",
+          "amount": 0.438931
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-09-13",
+          "amount": 0.438931
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-12-13",
+          "amount": 0.448473
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-03-13",
+          "amount": 0.448473
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-06-13",
+          "amount": 0.448473
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-09-14",
+          "amount": 0.448473
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-12-14",
+          "amount": 0.458015
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-03-14",
+          "amount": 0.458015
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-06-14",
+          "amount": 0.458015
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-09-14",
+          "amount": 0.458015
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-12-14",
+          "amount": 0.524809
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-03-14",
+          "amount": 0.524809
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-06-14",
+          "amount": 0.524809
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-09-13",
+          "amount": 0.524809
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-12-13",
+          "amount": 0.582061
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MRK?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:36:01.730158+00:00",
+      "raw_response_sha256": "5387655ecc3157114dccb6f5e8973c16eda69c9b90f89b8cb5cd8c55435d33f3",
+      "csv_sha256": "78b5652426c98f3c3315be702a1895b27f5b0e047f4beebdc6baf66333aac715",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "UNH",
+      "currency": "USD",
+      "exchange": "NYQ",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-03-31",
+          "amount": 0.03
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-04-01",
+          "amount": 0.03
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-06-03",
+          "amount": 0.125
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-09-10",
+          "amount": 0.125
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-12-03",
+          "amount": 0.125
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-03-03",
+          "amount": 0.125
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-06-03",
+          "amount": 0.163
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-09-02",
+          "amount": 0.163
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-12-05",
+          "amount": 0.163
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-03-01",
+          "amount": 0.163
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-06-13",
+          "amount": 0.213
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-09-12",
+          "amount": 0.213
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-12-07",
+          "amount": 0.213
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-03-13",
+          "amount": 0.212
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-06-13",
+          "amount": 0.28
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-09-11",
+          "amount": 0.28
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-12-04",
+          "amount": 0.28
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-03-12",
+          "amount": 0.28
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-06-12",
+          "amount": 0.375
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-09-10",
+          "amount": 0.375
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-12-03",
+          "amount": 0.375
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-03-11",
+          "amount": 0.375
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-06-11",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-09-09",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-12-02",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-03-09",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-06-15",
+          "amount": 0.625
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-09-07",
+          "amount": 0.625
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-11-30",
+          "amount": 0.625
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-03-08",
+          "amount": 0.625
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-06-15",
+          "amount": 0.75
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-09-07",
+          "amount": 0.75
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-11-30",
+          "amount": 0.75
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-03-08",
+          "amount": 0.75
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-06-15",
+          "amount": 0.9
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-09-06",
+          "amount": 0.9
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-11-30",
+          "amount": 0.9
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-03-08",
+          "amount": 0.9
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-06-14",
+          "amount": 1.08
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-09-13",
+          "amount": 1.08
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-12-06",
+          "amount": 1.08
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/UNH?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:36:01.839102+00:00",
+      "raw_response_sha256": "21d4664690dd62ec2656e164d6d37be05f166cd110c0cc5f3e2a4e55a04bad34",
+      "csv_sha256": "73ef2eafef38d6603ab20d339b07006534c7d1f6535f27213d00ee17da7c882d",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "WMT",
+      "currency": "USD",
+      "exchange": "NMS",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-03-11",
+          "amount": 0.091
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-05-13",
+          "amount": 0.091
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-08-12",
+          "amount": 0.091
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-12-09",
+          "amount": 0.091
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-03-10",
+          "amount": 0.101
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-05-12",
+          "amount": 0.101
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-08-11",
+          "amount": 0.101
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-12-08",
+          "amount": 0.101
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-03-09",
+          "amount": 0.121667
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-05-11",
+          "amount": 0.121667
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-08-10",
+          "amount": 0.121667
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-12-07",
+          "amount": 0.121667
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-03-08",
+          "amount": 0.132667
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-05-09",
+          "amount": 0.132667
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-08-08",
+          "amount": 0.132667
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-12-05",
+          "amount": 0.132667
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-03-08",
+          "amount": 0.156667
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-05-08",
+          "amount": 0.156667
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-08-07",
+          "amount": 0.156667
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-12-04",
+          "amount": 0.156667
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-03-07",
+          "amount": 0.16
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-05-07",
+          "amount": 0.16
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-08-06",
+          "amount": 0.16
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-12-03",
+          "amount": 0.16
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-03-11",
+          "amount": 0.163333
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-05-06",
+          "amount": 0.163333
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-08-05",
+          "amount": 0.163333
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-12-02",
+          "amount": 0.163333
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-03-09",
+          "amount": 0.166667
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-05-11",
+          "amount": 0.166667
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-08-10",
+          "amount": 0.166667
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-12-07",
+          "amount": 0.166667
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-03-08",
+          "amount": 0.17
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-05-10",
+          "amount": 0.17
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-08-09",
+          "amount": 0.17
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-12-07",
+          "amount": 0.17
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-03-08",
+          "amount": 0.173333
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-05-10",
+          "amount": 0.173333
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-08-09",
+          "amount": 0.173333
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-12-06",
+          "amount": 0.173333
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-03-14",
+          "amount": 0.176667
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-05-09",
+          "amount": 0.176667
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-08-08",
+          "amount": 0.176667
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-12-05",
+          "amount": 0.176667
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/WMT?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:36:10.157741+00:00",
+      "raw_response_sha256": "0f02e181a3dfe6ee8d48b48ef34f71962511d9ab86382e4de4c8e51376681619",
+      "csv_sha256": "9ab870e5695a66fa400564c94349eeeeec39614dbf0550b5ff9798dfa372888d",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "COST",
+      "currency": "USD",
+      "exchange": "NMS",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-02-11",
+          "amount": 0.16
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-05-13",
+          "amount": 0.18
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-08-12",
+          "amount": 0.18
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-10-21",
+          "amount": 0.18
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-02-10",
+          "amount": 0.18
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-05-05",
+          "amount": 0.205
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-08-04",
+          "amount": 0.205
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-10-27",
+          "amount": 0.205
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-02-09",
+          "amount": 0.205
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-05-11",
+          "amount": 0.24
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-08-03",
+          "amount": 0.24
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-11-08",
+          "amount": 0.24
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-02-08",
+          "amount": 0.24
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-05-23",
+          "amount": 0.275
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-08-08",
+          "amount": 0.275
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-11-14",
+          "amount": 0.275
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-12-06",
+          "amount": 7.0
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-02-06",
+          "amount": 0.275
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-05-15",
+          "amount": 0.31
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-08-07",
+          "amount": 0.31
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-11-13",
+          "amount": 0.31
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-02-12",
+          "amount": 0.31
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-05-14",
+          "amount": 0.355
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-07-09",
+          "amount": 0.355
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-11-12",
+          "amount": 0.355
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-02-05",
+          "amount": 5.0
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-02-11",
+          "amount": 0.355
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-04-29",
+          "amount": 0.4
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-08-12",
+          "amount": 0.4
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-11-10",
+          "amount": 0.4
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-02-10",
+          "amount": 0.4
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-04-27",
+          "amount": 0.45
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-08-10",
+          "amount": 0.45
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-11-02",
+          "amount": 0.45
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-02-08",
+          "amount": 0.45
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-05-08",
+          "amount": 7.0
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-05-10",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-08-16",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-11-16",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-02-15",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-05-10",
+          "amount": 0.57
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-08-30",
+          "amount": 0.57
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-11-08",
+          "amount": 0.57
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-02-07",
+          "amount": 0.57
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-05-09",
+          "amount": 0.65
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-08-29",
+          "amount": 0.65
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-10-31",
+          "amount": 0.65
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/COST?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:36:10.110011+00:00",
+      "raw_response_sha256": "1673d039528d984f720e9d4b47fc53204f879056c01c498fdc56b65b27d063f3",
+      "csv_sha256": "f9f076dab6af1f37f6077cb8f9637ab7cb534517ef5c4b96d172f83713e2ef0e",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "TGT",
+      "currency": "USD",
+      "exchange": "NYQ",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-02-18",
+          "amount": 0.16
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-05-18",
+          "amount": 0.16
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-08-18",
+          "amount": 0.17
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-11-18",
+          "amount": 0.17
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-02-17",
+          "amount": 0.17
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-05-18",
+          "amount": 0.17
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-08-18",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-11-17",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-02-14",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-05-16",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-08-16",
+          "amount": 0.3
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-11-14",
+          "amount": 0.3
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-02-13",
+          "amount": 0.3
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-05-14",
+          "amount": 0.3
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-08-13",
+          "amount": 0.36
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-11-19",
+          "amount": 0.36
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-02-15",
+          "amount": 0.36
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-05-13",
+          "amount": 0.36
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-08-19",
+          "amount": 0.43
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-11-18",
+          "amount": 0.43
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-02-14",
+          "amount": 0.43
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-05-19",
+          "amount": 0.43
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-08-18",
+          "amount": 0.52
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-11-17",
+          "amount": 0.52
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-02-13",
+          "amount": 0.52
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-05-18",
+          "amount": 0.52
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-08-17",
+          "amount": 0.56
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-11-16",
+          "amount": 0.56
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-02-12",
+          "amount": 0.56
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-05-16",
+          "amount": 0.56
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-08-15",
+          "amount": 0.6
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-11-14",
+          "amount": 0.6
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-02-13",
+          "amount": 0.6
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-05-15",
+          "amount": 0.6
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-08-14",
+          "amount": 0.62
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-11-14",
+          "amount": 0.62
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-02-20",
+          "amount": 0.62
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-05-15",
+          "amount": 0.62
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-08-14",
+          "amount": 0.64
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-11-20",
+          "amount": 0.64
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-02-19",
+          "amount": 0.64
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-05-14",
+          "amount": 0.64
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-08-20",
+          "amount": 0.66
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-11-19",
+          "amount": 0.66
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/TGT?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:36:10.224480+00:00",
+      "raw_response_sha256": "e7ed4376417763fc1b17820703552510faeddefd741239d9ba41d30705f42234",
+      "csv_sha256": "466e8553d8cc16c30060e3a242ae77b58dc9b30a65c8692a0e6938578a8a14a7",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "HD",
+      "currency": "USD",
+      "exchange": "NYQ",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-03-10",
+          "amount": 0.225
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-06-09",
+          "amount": 0.225
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-09-01",
+          "amount": 0.225
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-12-01",
+          "amount": 0.225
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-03-09",
+          "amount": 0.236
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-06-01",
+          "amount": 0.236
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-08-31",
+          "amount": 0.236
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-11-30",
+          "amount": 0.236
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-03-08",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-06-14",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-08-30",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-11-29",
+          "amount": 0.29
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-03-06",
+          "amount": 0.29
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-05-29",
+          "amount": 0.29
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-08-28",
+          "amount": 0.29
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-11-27",
+          "amount": 0.29
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-03-12",
+          "amount": 0.39
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-06-04",
+          "amount": 0.39
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-09-03",
+          "amount": 0.39
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-12-03",
+          "amount": 0.39
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-03-11",
+          "amount": 0.47
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-06-03",
+          "amount": 0.47
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-09-02",
+          "amount": 0.47
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-12-02",
+          "amount": 0.47
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-03-10",
+          "amount": 0.59
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-06-02",
+          "amount": 0.59
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-09-01",
+          "amount": 0.59
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-12-01",
+          "amount": 0.59
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-03-08",
+          "amount": 0.69
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-05-31",
+          "amount": 0.69
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-08-30",
+          "amount": 0.69
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-11-29",
+          "amount": 0.69
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-03-07",
+          "amount": 0.89
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-05-30",
+          "amount": 0.89
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-08-29",
+          "amount": 0.89
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-11-29",
+          "amount": 0.89
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-03-07",
+          "amount": 1.03
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-05-30",
+          "amount": 1.03
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-08-29",
+          "amount": 1.03
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-11-28",
+          "amount": 1.03
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-03-13",
+          "amount": 1.36
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-06-05",
+          "amount": 1.36
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-09-04",
+          "amount": 1.36
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-12-04",
+          "amount": 1.36
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/HD?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:36:10.345705+00:00",
+      "raw_response_sha256": "41222e316d54e50b9bb67afb4847c6bd3dad86dc263094c526154e9acef38612",
+      "csv_sha256": "e83f06d4fb508449bf71095676cd5deccee87268039b4a5ecd11545525694b17",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "KO",
+      "currency": "USD",
+      "exchange": "NYQ",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-03-11",
+          "amount": 0.205
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-06-11",
+          "amount": 0.205
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-09-11",
+          "amount": 0.205
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-11-27",
+          "amount": 0.205
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-03-11",
+          "amount": 0.22
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-06-11",
+          "amount": 0.22
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-09-13",
+          "amount": 0.22
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-11-29",
+          "amount": 0.22
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-03-11",
+          "amount": 0.235
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-06-13",
+          "amount": 0.235
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-09-13",
+          "amount": 0.235
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-11-29",
+          "amount": 0.235
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-03-13",
+          "amount": 0.255
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-06-13",
+          "amount": 0.255
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-09-12",
+          "amount": 0.255
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-11-28",
+          "amount": 0.255
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-03-13",
+          "amount": 0.28
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-06-12",
+          "amount": 0.28
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-09-12",
+          "amount": 0.28
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-11-27",
+          "amount": 0.28
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-03-12",
+          "amount": 0.305
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-06-12",
+          "amount": 0.305
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-09-11",
+          "amount": 0.305
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-11-26",
+          "amount": 0.305
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-03-12",
+          "amount": 0.33
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-06-11",
+          "amount": 0.33
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-09-11",
+          "amount": 0.33
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-11-27",
+          "amount": 0.33
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-03-11",
+          "amount": 0.35
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-06-13",
+          "amount": 0.35
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-09-13",
+          "amount": 0.35
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-11-29",
+          "amount": 0.35
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-03-13",
+          "amount": 0.37
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-06-13",
+          "amount": 0.37
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-09-14",
+          "amount": 0.37
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-11-30",
+          "amount": 0.37
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-03-14",
+          "amount": 0.39
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-06-14",
+          "amount": 0.39
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-09-13",
+          "amount": 0.39
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-11-29",
+          "amount": 0.39
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-03-14",
+          "amount": 0.4
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-06-13",
+          "amount": 0.4
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-09-13",
+          "amount": 0.4
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-11-29",
+          "amount": 0.4
+        },
+        {
+          "kind": "splits",
+          "date": "2012-08-13",
+          "numerator": 2.0,
+          "denominator": 1.0,
+          "splitRatio": "2:1"
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/KO?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:36:18.599573+00:00",
+      "raw_response_sha256": "1a3a31cd0d339f64d7924c94f5db6063acc65416befb3f46223cfff7bcfe30ca",
+      "csv_sha256": "dbbbb3fb8e2dc9129e6cfb25a115676d4b0037e6b72b041e1d59425d8650368a",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "PEP",
+      "currency": "USD",
+      "exchange": "NMS",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-03-04",
+          "amount": 0.425
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-06-03",
+          "amount": 0.45
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-09-02",
+          "amount": 0.45
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-12-02",
+          "amount": 0.45
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-03-03",
+          "amount": 0.45
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-06-02",
+          "amount": 0.48
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-09-01",
+          "amount": 0.48
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-12-01",
+          "amount": 0.48
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-03-02",
+          "amount": 0.48
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-06-01",
+          "amount": 0.515
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-08-31",
+          "amount": 0.515
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-11-30",
+          "amount": 0.515
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-02-29",
+          "amount": 0.515
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-05-30",
+          "amount": 0.538
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-09-05",
+          "amount": 0.538
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-12-05",
+          "amount": 0.537
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-02-27",
+          "amount": 0.537
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-06-05",
+          "amount": 0.568
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-09-04",
+          "amount": 0.568
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-12-04",
+          "amount": 0.568
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-03-05",
+          "amount": 0.568
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-06-04",
+          "amount": 0.655
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-09-03",
+          "amount": 0.655
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-12-03",
+          "amount": 0.655
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-03-04",
+          "amount": 0.655
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-06-03",
+          "amount": 0.703
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-09-02",
+          "amount": 0.703
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-12-02",
+          "amount": 0.703
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-03-02",
+          "amount": 0.703
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-06-01",
+          "amount": 0.753
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-08-31",
+          "amount": 0.753
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-11-30",
+          "amount": 0.753
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-03-01",
+          "amount": 0.753
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-05-31",
+          "amount": 0.805
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-08-30",
+          "amount": 0.805
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-11-30",
+          "amount": 0.805
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-03-01",
+          "amount": 0.805
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-05-31",
+          "amount": 0.928
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-09-06",
+          "amount": 0.928
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-12-06",
+          "amount": 0.928
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-02-28",
+          "amount": 0.928
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-06-06",
+          "amount": 0.955
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-09-05",
+          "amount": 0.955
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-12-05",
+          "amount": 0.955
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/PEP?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:36:18.576109+00:00",
+      "raw_response_sha256": "b8313f3312baebc88449fca2680c30cb8d34c7c9a3ca42d4c24cc2aa2bfd4314",
+      "csv_sha256": "62c4a32bb095c5f69fd0401d2eeb1a64e9229b38e6cefb85dfd3a6d46dba8026",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "MCD",
+      "currency": "USD",
+      "exchange": "NYQ",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-02-26",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-06-04",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-08-28",
+          "amount": 0.5
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-11-27",
+          "amount": 0.55
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-02-25",
+          "amount": 0.55
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-05-27",
+          "amount": 0.55
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-08-30",
+          "amount": 0.55
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-11-29",
+          "amount": 0.61
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-02-25",
+          "amount": 0.61
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-05-27",
+          "amount": 0.61
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-08-30",
+          "amount": 0.61
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-11-29",
+          "amount": 0.7
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-02-28",
+          "amount": 0.7
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-05-31",
+          "amount": 0.7
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-08-30",
+          "amount": 0.7
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-11-29",
+          "amount": 0.77
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-02-27",
+          "amount": 0.77
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-05-30",
+          "amount": 0.77
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-08-29",
+          "amount": 0.77
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-11-27",
+          "amount": 0.81
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-02-27",
+          "amount": 0.81
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-05-29",
+          "amount": 0.81
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-08-28",
+          "amount": 0.81
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-11-26",
+          "amount": 0.85
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-02-26",
+          "amount": 0.85
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-05-28",
+          "amount": 0.85
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-08-28",
+          "amount": 0.85
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-11-27",
+          "amount": 0.89
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-02-26",
+          "amount": 0.89
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-06-02",
+          "amount": 0.89
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-08-30",
+          "amount": 0.89
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-11-29",
+          "amount": 0.94
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-02-27",
+          "amount": 0.94
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-06-01",
+          "amount": 0.94
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-08-30",
+          "amount": 0.94
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-11-30",
+          "amount": 1.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-02-28",
+          "amount": 1.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-06-01",
+          "amount": 1.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-08-31",
+          "amount": 1.01
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-11-30",
+          "amount": 1.16
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-02-28",
+          "amount": 1.16
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-05-31",
+          "amount": 1.16
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-08-30",
+          "amount": 1.16
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-11-29",
+          "amount": 1.25
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MCD?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:36:18.515305+00:00",
+      "raw_response_sha256": "afa40ef1011b95baddf3212c5a92317fe31f70615ec5a53e19f20fe58da14093",
+      "csv_sha256": "726abd37a6e2e0a75d76016699aeb06aa6004b05f7aaadc5a30a3f7fc4810c9d",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "SBUX",
+      "currency": "USD",
+      "exchange": "NMS",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2010-04-05",
+          "amount": 0.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-08-02",
+          "amount": 0.065
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-11-16",
+          "amount": 0.065
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-02-07",
+          "amount": 0.065
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-05-09",
+          "amount": 0.065
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-08-08",
+          "amount": 0.065
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-11-15",
+          "amount": 0.085
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-02-06",
+          "amount": 0.085
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-05-07",
+          "amount": 0.085
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-08-06",
+          "amount": 0.085
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-11-13",
+          "amount": 0.105
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-02-05",
+          "amount": 0.105
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-05-07",
+          "amount": 0.105
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-08-06",
+          "amount": 0.105
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-11-12",
+          "amount": 0.13
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-02-04",
+          "amount": 0.13
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-05-06",
+          "amount": 0.13
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-08-05",
+          "amount": 0.13
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-11-10",
+          "amount": 0.16
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-02-03",
+          "amount": 0.16
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-05-05",
+          "amount": 0.16
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-08-04",
+          "amount": 0.16
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-11-09",
+          "amount": 0.2
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-02-02",
+          "amount": 0.2
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-05-03",
+          "amount": 0.2
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-08-02",
+          "amount": 0.2
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-11-15",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-02-07",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-05-09",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-08-08",
+          "amount": 0.25
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-11-15",
+          "amount": 0.3
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-02-07",
+          "amount": 0.3
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-05-09",
+          "amount": 0.3
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-08-08",
+          "amount": 0.36
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-11-14",
+          "amount": 0.36
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-02-06",
+          "amount": 0.36
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-05-08",
+          "amount": 0.36
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-08-07",
+          "amount": 0.36
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-11-12",
+          "amount": 0.41
+        },
+        {
+          "kind": "splits",
+          "date": "2015-04-09",
+          "numerator": 2.0,
+          "denominator": 1.0,
+          "splitRatio": "2:1"
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SBUX?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:36:18.627354+00:00",
+      "raw_response_sha256": "78011cc8ea6ee92b38de84c4cd50144ce7e2dc3dcc6354ee8da8e1c642676b9f",
+      "csv_sha256": "4d42de67edb3514cc7c58a175aa669e4b3ade23a466447e75352ca1f54bcb4bf",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    },
+    {
+      "symbol": "SPY",
+      "currency": "USD",
+      "exchange": "PCX",
+      "events": [
+        {
+          "kind": "dividends",
+          "date": "2009-03-20",
+          "amount": 0.561
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-06-19",
+          "amount": 0.518
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-09-18",
+          "amount": 0.508
+        },
+        {
+          "kind": "dividends",
+          "date": "2009-12-18",
+          "amount": 0.59
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-03-19",
+          "amount": 0.48
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-06-18",
+          "amount": 0.531
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-09-17",
+          "amount": 0.602
+        },
+        {
+          "kind": "dividends",
+          "date": "2010-12-17",
+          "amount": 0.653
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-03-18",
+          "amount": 0.553
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-06-17",
+          "amount": 0.628
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-09-16",
+          "amount": 0.625
+        },
+        {
+          "kind": "dividends",
+          "date": "2011-12-16",
+          "amount": 0.77
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-03-16",
+          "amount": 0.614
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-06-15",
+          "amount": 0.688
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-09-21",
+          "amount": 0.779
+        },
+        {
+          "kind": "dividends",
+          "date": "2012-12-21",
+          "amount": 1.022
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-03-15",
+          "amount": 0.694
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-06-21",
+          "amount": 0.839
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-09-20",
+          "amount": 0.838
+        },
+        {
+          "kind": "dividends",
+          "date": "2013-12-20",
+          "amount": 0.98
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-03-21",
+          "amount": 0.825
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-06-20",
+          "amount": 0.937
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-09-19",
+          "amount": 0.939
+        },
+        {
+          "kind": "dividends",
+          "date": "2014-12-19",
+          "amount": 1.135
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-03-20",
+          "amount": 0.931
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-06-19",
+          "amount": 1.03
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-09-18",
+          "amount": 1.033
+        },
+        {
+          "kind": "dividends",
+          "date": "2015-12-18",
+          "amount": 1.212
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-03-18",
+          "amount": 1.05
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-06-17",
+          "amount": 1.078
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-09-16",
+          "amount": 1.082
+        },
+        {
+          "kind": "dividends",
+          "date": "2016-12-16",
+          "amount": 1.329
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-03-17",
+          "amount": 1.033
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-06-16",
+          "amount": 1.183
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-09-15",
+          "amount": 1.235
+        },
+        {
+          "kind": "dividends",
+          "date": "2017-12-15",
+          "amount": 1.351
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-03-16",
+          "amount": 1.097
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-06-15",
+          "amount": 1.246
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-09-21",
+          "amount": 1.323
+        },
+        {
+          "kind": "dividends",
+          "date": "2018-12-21",
+          "amount": 1.435
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-03-15",
+          "amount": 1.233
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-06-21",
+          "amount": 1.432
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-09-20",
+          "amount": 1.384
+        },
+        {
+          "kind": "dividends",
+          "date": "2019-12-20",
+          "amount": 1.57
+        }
+      ],
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+      "requested_start": "2009-01-01",
+      "requested_end_exclusive": "2020-01-01",
+      "retrieved_utc": "2026-09-21T21:36:27.138673+00:00",
+      "raw_response_sha256": "62ef73c2e62ea371f3b6c8f983fb2b562a0586d7428d745a8c863e8df130b42c",
+      "csv_sha256": "3d8fcfc2c770892d82f9325717771a254ba4bb00998a3ac4fa457fb67967a6ab",
+      "rows": 2768,
+      "retained_metadata": "Current quote fields excluded; historical bars and in-range events only"
+    }
+  ]
+}

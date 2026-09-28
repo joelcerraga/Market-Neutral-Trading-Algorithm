@@ -1,0 +1,463 @@
+[
+  {
+    "id": 1,
+    "key": "AvellanedaLee2010",
+    "authors": "M. Avellaneda and J.-H. Lee",
+    "year": 2010,
+    "title": "Statistical arbitrage in the US equities market",
+    "venue": "Quantitative Finance, 10(7), 761-782",
+    "doi": "10.1080/14697680903124632",
+    "url": "https://doi.org/10.1080/14697680903124632",
+    "evidence": "Published paper accessed through the UC Berkeley copy; sections on PCA/ETF residuals, costs and historical universe selection.",
+    "access_url": "https://traders.berkeley.edu/papers/Statistical%20arbitrage%20in%20the%20US%20equities%20market.pdf",
+    "type": "article",
+    "bibtex_author": "Avellaneda, M. and Lee, J.-H.",
+    "bibtex_fields": {
+      "journal": "Quantitative Finance",
+      "volume": "10",
+      "number": "7",
+      "pages": "761--782"
+    }
+  },
+  {
+    "id": 2,
+    "key": "LoMacKinlay1990",
+    "authors": "A. W. Lo and A. C. MacKinlay",
+    "year": 1990,
+    "title": "When Are Contrarian Profits Due to Stock Market Overreaction?",
+    "venue": "The Review of Financial Studies, 3(2), 175-205",
+    "doi": "10.1093/rfs/3.2.175",
+    "url": "https://doi.org/10.1093/rfs/3.2.175",
+    "evidence": "Publisher abstract and authors' MIT abstract; contrarian profits need not uniquely identify overreaction.",
+    "access_url": "https://academic.oup.com/rfs/article/3/2/175/1595488",
+    "type": "article",
+    "bibtex_author": "Lo, A. W. and MacKinlay, A. C.",
+    "bibtex_fields": {
+      "journal": "The Review of Financial Studies",
+      "volume": "3",
+      "number": "2",
+      "pages": "175--205"
+    }
+  },
+  {
+    "id": 3,
+    "key": "Sharpe1964",
+    "authors": "W. F. Sharpe",
+    "year": 1964,
+    "title": "Capital Asset Prices: A Theory of Market Equilibrium under Conditions of Risk",
+    "venue": "The Journal of Finance, 19(3), 425-442",
+    "doi": "10.1111/j.1540-6261.1964.tb02865.x",
+    "url": "https://doi.org/10.1111/j.1540-6261.1964.tb02865.x",
+    "evidence": "Wiley publisher record and article introduction; systematic risk framework, not a proof that a trailing beta hedge remains neutral.",
+    "type": "article",
+    "bibtex_author": "Sharpe, W. F.",
+    "bibtex_fields": {
+      "journal": "The Journal of Finance",
+      "volume": "19",
+      "number": "3",
+      "pages": "425--442"
+    }
+  },
+  {
+    "id": 4,
+    "key": "FamaFrench1993",
+    "authors": "E. F. Fama and K. R. French",
+    "year": 1993,
+    "title": "Common risk factors in the returns on stocks and bonds",
+    "venue": "Journal of Financial Economics, 33(1), 3-56",
+    "doi": "10.1016/0304-405X(93)90023-5",
+    "url": "https://doi.org/10.1016/0304-405X(93)90023-5",
+    "evidence": "Published paper and publisher abstract; stock returns contain common variation beyond the market factor.",
+    "access_url": "https://people.duke.edu/~charvey/Teaching/BA453_2006/FF_Common_risk.pdf",
+    "type": "article",
+    "bibtex_author": "Fama, E. F. and French, K. R.",
+    "bibtex_fields": {
+      "journal": "Journal of Financial Economics",
+      "volume": "33",
+      "number": "1",
+      "pages": "3--56"
+    }
+  },
+  {
+    "id": 5,
+    "key": "Shumway1997",
+    "authors": "T. Shumway",
+    "year": 1997,
+    "title": "The Delisting Bias in CRSP Data",
+    "venue": "The Journal of Finance, 52(1), 327-340",
+    "doi": "10.1111/j.1540-6261.1997.tb03818.x",
+    "url": "https://doi.org/10.1111/j.1540-6261.1997.tb03818.x",
+    "evidence": "Wiley metadata and BYU author's institutional abstract; missing adverse delisting returns can bias return studies.",
+    "access_url": "https://scholarsarchive.byu.edu/facpub/9278/",
+    "type": "article",
+    "bibtex_author": "Shumway, T.",
+    "bibtex_fields": {
+      "journal": "The Journal of Finance",
+      "volume": "52",
+      "number": "1",
+      "pages": "327--340"
+    }
+  },
+  {
+    "id": 6,
+    "key": "Mantegna1999",
+    "authors": "R. N. Mantegna",
+    "year": 1999,
+    "title": "Hierarchical structure in financial markets",
+    "venue": "The European Physical Journal B, 11, 193-197",
+    "doi": "10.1007/s100510050929",
+    "url": "https://doi.org/10.1007/s100510050929",
+    "evidence": "Springer publisher abstract and paper's correlation-distance construction. Issue year is 1999, not the later platform upload date.",
+    "type": "article",
+    "bibtex_author": "Mantegna, R. N.",
+    "bibtex_fields": {
+      "journal": "The European Physical Journal B",
+      "volume": "11",
+      "pages": "193--197"
+    }
+  },
+  {
+    "id": 7,
+    "key": "Chung1997",
+    "authors": "F. R. K. Chung",
+    "year": 1997,
+    "title": "Spectral Graph Theory",
+    "venue": "CBMS Regional Conference Series in Mathematics, vol. 92, American Mathematical Society",
+    "doi": "10.1090/cbms/092",
+    "url": "https://doi.org/10.1090/cbms/092",
+    "evidence": "Author-hosted lecture text, Chapter 1. Combinatorial and normalised Laplacians are distinguished explicitly in this project.",
+    "access_url": "https://fanchung.ucsd.edu/research/cbms.pdf",
+    "type": "book",
+    "bibtex_author": "Chung, F. R. K.",
+    "bibtex_fields": {
+      "series": "CBMS Regional Conference Series in Mathematics",
+      "volume": "92",
+      "publisher": "American Mathematical Society"
+    }
+  },
+  {
+    "id": 8,
+    "key": "KondorLafferty2002",
+    "authors": "R. I. Kondor and J. D. Lafferty",
+    "year": 2002,
+    "title": "Diffusion Kernels on Graphs and Other Discrete Input Spaces",
+    "venue": "Proceedings of the 19th International Conference on Machine Learning, 315-322",
+    "doi": "10.5555/645531.655996",
+    "url": "https://dl.acm.org/doi/10.5555/645531.655996",
+    "evidence": "ACM publication record and author-uploaded paper; matrix exponentiation and heat-equation interpretation. The trading score is our modelling choice.",
+    "access_url": "https://www.researchgate.net/publication/2831885_Diffusion_Kernels_on_Graphs_and_Other_Discrete_Input_Spaces",
+    "type": "inproceedings",
+    "bibtex_author": "Kondor, R. I. and Lafferty, J. D.",
+    "bibtex_fields": {
+      "booktitle": "Proceedings of the 19th International Conference on Machine Learning",
+      "pages": "315--322"
+    }
+  },
+  {
+    "id": 9,
+    "key": "White2000",
+    "authors": "H. White",
+    "year": 2000,
+    "title": "A Reality Check for Data Snooping",
+    "venue": "Econometrica, 68(5), 1097-1126",
+    "doi": "10.1111/1468-0262.00152",
+    "url": "https://doi.org/10.1111/1468-0262.00152",
+    "evidence": "Published paper via University of Wisconsin and publisher record; repeated model searching can generate chance findings. White's test is not implemented here.",
+    "access_url": "https://users.ssc.wisc.edu/~behansen/718/White2000.pdf",
+    "type": "article",
+    "bibtex_author": "White, H.",
+    "bibtex_fields": {
+      "journal": "Econometrica",
+      "volume": "68",
+      "number": "5",
+      "pages": "1097--1126"
+    }
+  },
+  {
+    "id": 10,
+    "key": "BaileyEtAl2017",
+    "authors": "D. H. Bailey, J. M. Borwein, M. Lopez de Prado and Q. J. Zhu",
+    "year": 2017,
+    "title": "The probability of backtest overfitting",
+    "venue": "The Journal of Computational Finance, 20(4), 39-69",
+    "doi": "10.21314/JCF.2016.322",
+    "url": "https://doi.org/10.21314/JCF.2016.322",
+    "evidence": "Journal record and authors' February 2015 manuscript; a holdout alone does not account for repeated strategy selection. PBO/CSCV is not claimed to have been computed.",
+    "access_url": "https://www.davidhbailey.com/dhbpapers/backtest-prob.pdf",
+    "type": "article",
+    "bibtex_author": "Bailey, D. H. and Borwein, J. M. and Lopez de Prado, M. and Zhu, Q. J.",
+    "bibtex_fields": {
+      "journal": "The Journal of Computational Finance",
+      "volume": "20",
+      "number": "4",
+      "pages": "39--69"
+    }
+  },
+  {
+    "id": 11,
+    "key": "Lo2002",
+    "authors": "A. W. Lo",
+    "year": 2002,
+    "title": "The Statistics of Sharpe Ratios",
+    "venue": "Financial Analysts Journal, 58(4), 36-52",
+    "doi": "10.2469/faj.v58.n4.2453",
+    "url": "https://doi.org/10.2469/faj.v58.n4.2453",
+    "evidence": "Published paper text and publisher bibliographic record; dependence and estimation error affect Sharpe-ratio interpretation.",
+    "type": "article",
+    "bibtex_author": "Lo, A. W.",
+    "bibtex_fields": {
+      "journal": "Financial Analysts Journal",
+      "volume": "58",
+      "number": "4",
+      "pages": "36--52"
+    }
+  },
+  {
+    "id": 12,
+    "key": "EdelsbrunnerEtAl2002",
+    "authors": "H. Edelsbrunner, D. Letscher and A. Zomorodian",
+    "year": 2002,
+    "title": "Topological Persistence and Simplification",
+    "venue": "Discrete & Computational Geometry, 28, 511-533",
+    "doi": "10.1007/s00454-002-2885-2",
+    "url": "https://doi.org/10.1007/s00454-002-2885-2",
+    "evidence": "Springer publisher abstract; persistence tracks feature lifetimes through a filtration. Cited for the planned extension.",
+    "type": "article",
+    "bibtex_author": "Edelsbrunner, H. and Letscher, D. and Zomorodian, A.",
+    "bibtex_fields": {
+      "journal": "Discrete and Computational Geometry",
+      "volume": "28",
+      "pages": "511--533"
+    }
+  },
+  {
+    "id": 13,
+    "key": "GideaKatz2018",
+    "authors": "M. Gidea and Y. Katz",
+    "year": 2018,
+    "title": "Topological data analysis of financial time series: Landscapes of crashes",
+    "venue": "Physica A: Statistical Mechanics and its Applications, 491, 820-834",
+    "doi": "10.1016/j.physa.2017.09.028",
+    "url": "https://doi.org/10.1016/j.physa.2017.09.028",
+    "evidence": "Author arXiv manuscript and published-journal reference; sliding-window point clouds from market indices. Our planned stock correlation-distance construction is different.",
+    "access_url": "https://arxiv.org/abs/1703.04385",
+    "type": "article",
+    "bibtex_author": "Gidea, M. and Katz, Y.",
+    "bibtex_fields": {
+      "journal": "Physica A: Statistical Mechanics and its Applications",
+      "volume": "491",
+      "pages": "820--834"
+    }
+  },
+  {
+    "id": 14,
+    "key": "GolubVanLoan2013",
+    "authors": "G. H. Golub and C. F. Van Loan",
+    "year": 2013,
+    "title": "Matrix Computations",
+    "venue": "4th ed., Johns Hopkins University Press; Chapter 5: Orthogonalization and Least Squares",
+    "doi": "10.56021/9781421407944",
+    "url": "https://www.press.jhu.edu/books/title/10678/matrix-computations",
+    "evidence": "Publisher record, edition, authors and chapter contents. Standard least-squares projection provides the numerical context for the project's exposure projection.",
+    "type": "book",
+    "bibtex_author": "Golub, G. H. and Van Loan, C. F.",
+    "bibtex_fields": {
+      "edition": "4",
+      "publisher": "Johns Hopkins University Press"
+    }
+  },
+  {
+    "id": 15,
+    "key": "YahooData2026",
+    "authors": "Yahoo Finance",
+    "year": 2026,
+    "title": "Historical daily chart responses for the declared stock basket and SPY, 2009–2019",
+    "venue": "Primary data source, accessed 21 September 2026; per-symbol URLs and hashes in data/download-manifest.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1230768000&period2=1577836800&interval=1d&events=div%2Csplits",
+    "evidence": "Successfully acquired the provider's adjclose, close, volume, dividend and split fields. Adjustment accuracy is not independently certified.",
+    "type": "misc",
+    "bibtex_author": "{Yahoo Finance}",
+    "bibtex_fields": {
+      "note": "Accessed: 21 September 2026"
+    },
+    "year_suffix": "a",
+    "accessed": "21 September 2026"
+  },
+  {
+    "id": 16,
+    "key": "PolitisRomano1994",
+    "authors": "D. N. Politis and J. P. Romano",
+    "year": 1994,
+    "title": "The Stationary Bootstrap",
+    "venue": "Journal of the American Statistical Association, 89(428), 1303-1313",
+    "doi": "10.1080/01621459.1994.10476870",
+    "url": "https://doi.org/10.1080/01621459.1994.10476870",
+    "type": "article",
+    "evidence": "Publisher search record and Crossref metadata verified. The geometric-block construction is additionally verified in Nordman (2009), Section 2.1; the publisher full text was not accessible in this session.",
+    "bibtex_author": "Politis, D. N. and Romano, J. P.",
+    "bibtex_fields": {
+      "journal": "Journal of the American Statistical Association",
+      "volume": "89",
+      "number": "428",
+      "pages": "1303--1313"
+    }
+  },
+  {
+    "id": 17,
+    "key": "NeweyWest1987",
+    "authors": "W. K. Newey and K. D. West",
+    "year": 1987,
+    "title": "A Simple, Positive Semi-Definite, Heteroskedasticity and Autocorrelation Consistent Covariance Matrix",
+    "venue": "Econometrica, 55(3), 703-708",
+    "doi": "10.2307/1913610",
+    "url": "https://doi.org/10.2307/1913610",
+    "access_url": "https://www.nber.org/system/files/working_papers/t0055/t0055.pdf",
+    "type": "article",
+    "evidence": "Journal DOI, author, volume and issue metadata verified through Crossref. Read the authors' April 1986 NBER Technical Working Paper 55, including Equation 5 with modified Bartlett weights; distinguish this accessed version from the 1987 journal publication.",
+    "bibtex_author": "Newey, W. K. and West, K. D.",
+    "bibtex_fields": {
+      "journal": "Econometrica",
+      "volume": "55",
+      "number": "3",
+      "pages": "703--708"
+    }
+  },
+  {
+    "id": 18,
+    "key": "Nordman2009",
+    "authors": "D. J. Nordman",
+    "year": 2009,
+    "title": "A note on the stationary bootstrap's variance",
+    "venue": "The Annals of Statistics, 37(1), 359-370",
+    "doi": "10.1214/07-AOS567",
+    "url": "https://doi.org/10.1214/07-AOS567",
+    "access_url": "https://arxiv.org/pdf/0903.0474",
+    "type": "article",
+    "evidence": "Electronic reprint of the published paper accessed via arXiv. Section 2.1 describes geometric blocks and circular continuation; Equation 3 gives the finite-sample conditional variance used for an independent numerical check.",
+    "bibtex_author": "Nordman, D. J.",
+    "bibtex_fields": {
+      "journal": "The Annals of Statistics",
+      "volume": "37",
+      "number": "1",
+      "pages": "359--370"
+    }
+  },
+  {
+    "id": 19,
+    "key": "Bauer2021",
+    "authors": "U. Bauer",
+    "year": 2021,
+    "title": "Ripser: efficient computation of Vietoris–Rips persistence barcodes",
+    "venue": "Journal of Applied and Computational Topology, 5(3), 391–423",
+    "doi": "10.1007/s41468-021-00071-5",
+    "url": "https://doi.org/10.1007/s41468-021-00071-5",
+    "evidence": "Publisher article and authors’ preprint, verified against Crossref. Rips persistence engine and full edge-threshold filtration; not a financial validation.",
+    "access_url": "https://link.springer.com/article/10.1007/s41468-021-00071-5",
+    "type": "article",
+    "bibtex_author": "Bauer, U.",
+    "bibtex_fields": {
+      "journal": "Journal of Applied and Computational Topology",
+      "volume": "5",
+      "number": "3",
+      "pages": "391--423"
+    }
+  },
+  {
+    "id": 20,
+    "key": "TralieSaulBarOn2018",
+    "authors": "C. Tralie, N. Saul and R. Bar-On",
+    "year": 2018,
+    "title": "Ripser.py: A lean persistent homology library for Python",
+    "venue": "Journal of Open Source Software, 3(29), 925",
+    "doi": "10.21105/joss.00925",
+    "url": "https://doi.org/10.21105/joss.00925",
+    "evidence": "Published JOSS article read. Python interface and distance-matrix support; current official API checked separately; pinned implementation is 0.6.14.",
+    "access_url": "https://joss.theoj.org/papers/10.21105/joss.00925.pdf",
+    "type": "article",
+    "bibtex_author": "Tralie, C. and Saul, N. and Bar-On, R.",
+    "bibtex_fields": {
+      "journal": "Journal of Open Source Software",
+      "volume": "3",
+      "number": "29",
+      "pages": "925"
+    }
+  },
+  {
+    "id": 21,
+    "key": "Bubenik2015",
+    "authors": "P. Bubenik",
+    "year": 2015,
+    "title": "Statistical topological data analysis using persistence landscapes",
+    "venue": "Journal of Machine Learning Research, 16(3), 77–102",
+    "doi": null,
+    "url": "https://jmlr.org/papers/v16/bubenik15a.html",
+    "evidence": "Journal full text, Section 2.2, Definition 3 and Figure 2. Ordered interval tents and three-dimensional landscape representation. Visual ranks are discrete.",
+    "access_url": "https://jmlr.org/papers/volume16/bubenik15a/bubenik15a.pdf",
+    "type": "article",
+    "bibtex_author": "Bubenik, P.",
+    "bibtex_fields": {
+      "journal": "Journal of Machine Learning Research",
+      "volume": "16",
+      "number": "3",
+      "pages": "77--102"
+    }
+  },
+  {
+    "id": 22,
+    "key": "ChazalDeSilvaOudot2014",
+    "authors": "F. Chazal, V. de Silva and S. Oudot",
+    "year": 2014,
+    "title": "Persistence stability for geometric complexes",
+    "venue": "Geometriae Dedicata, 173(1), 193–214",
+    "doi": "10.1007/s10711-013-9937-z",
+    "url": "https://doi.org/10.1007/s10711-013-9937-z",
+    "evidence": "2013 author preprint read; publisher confirms 2014 volume year. Introduction and Theorem 2.3 support metric/filtration stability. Same-label max-distance perturbation bound is the project’s stated specialisation, not a claim of feature invariance.",
+    "access_url": "https://arxiv.org/pdf/1207.3885",
+    "type": "article",
+    "bibtex_author": "Chazal, F. and de Silva, V. and Oudot, S.",
+    "bibtex_fields": {
+      "journal": "Geometriae Dedicata",
+      "volume": "173",
+      "number": "1",
+      "pages": "193--214"
+    }
+  },
+  {
+    "id": 23,
+    "key": "LehmannRomano2005",
+    "authors": "E. L. Lehmann and J. P. Romano",
+    "year": 2005,
+    "title": "Testing Statistical Hypotheses",
+    "venue": "3rd edn. Springer, New York",
+    "doi": "10.1007/0-387-27605-X",
+    "url": "https://doi.org/10.1007/0-387-27605-X",
+    "access_url": "https://page-one.springer.com/pdf/preview/10.1007/0-387-27605-X_9",
+    "evidence": "Publisher metadata and Chapter 9 opening pp.348–349 read. Supports joint inference and the family-wise error definition. The manuscript derives the union bound explicitly. Full chapter access is not claimed.",
+    "type": "book",
+    "bibtex_author": "Lehmann, E. L. and Romano, J. P.",
+    "bibtex_fields": {
+      "edition": "3",
+      "publisher": "Springer",
+      "series": "Springer Texts in Statistics"
+    }
+  },
+  {
+    "id": 24,
+    "key": "YahooFinanceFinal2026",
+    "authors": "Yahoo Finance",
+    "year": 2026,
+    "year_suffix": "b",
+    "title": "Historical daily chart responses for the declared stock basket and SPY, 2018–2025",
+    "venue": "Yahoo Finance",
+    "doi": null,
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1546214400&period2=1767225600&interval=1d&events=div%2Csplits",
+    "access_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1546214400&period2=1767225600&interval=1d&events=div%2Csplits",
+    "accessed": "22 September 2026",
+    "evidence": "Exact 25 requests, dates, hashes and retained events in data/final-download-manifest.json; acquired after the final protocol lock. Provider observations, not methodological evidence.",
+    "type": "misc",
+    "bibtex_author": "{Yahoo Finance}",
+    "bibtex_fields": {
+      "note": "Accessed: 22 September 2026"
+    }
+  }
+]

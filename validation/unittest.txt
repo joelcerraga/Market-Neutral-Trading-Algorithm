@@ -1,0 +1,19 @@
+test_borrow_accrues_over_calendar_weekend (test_research.ResearchChecks.test_borrow_accrues_over_calendar_weekend) ... ok
+test_constant_signal_is_preserved_and_heat_matches_expm (test_research.ResearchChecks.test_constant_signal_is_preserved_and_heat_matches_expm) ... ok
+test_decision_cannot_earn_same_or_next_close_return (test_research.ResearchChecks.test_decision_cannot_earn_same_or_next_close_return) ... ok
+test_disconnected_graph_produces_no_diffusion_residual (test_research.ResearchChecks.test_disconnected_graph_produces_no_diffusion_residual) ... ok
+test_entry_and_liquidation_fee_match_closed_form (test_research.ResearchChecks.test_entry_and_liquidation_fee_match_closed_form) ... ok
+test_full_run_accounting_and_neutrality (test_research.ResearchChecks.test_full_run_accounting_and_neutrality) ... ok
+test_future_prices_cannot_change_past_decisions (test_research.ResearchChecks.test_future_prices_cannot_change_past_decisions) ... ok
+test_graph_energy_cannot_increase_under_diffusion (test_research.ResearchChecks.test_graph_energy_cannot_increase_under_diffusion) ... ok
+test_identical_betas_and_zero_scores_are_well_defined (test_research.ResearchChecks.test_identical_betas_and_zero_scores_are_well_defined) ... ok
+test_loader_preserves_labels_and_values (test_research.ResearchChecks.test_loader_preserves_labels_and_values) ... ok
+test_neutrality_and_caps_survive_concentrated_score (test_research.ResearchChecks.test_neutrality_and_caps_survive_concentrated_score) ... ok
+test_price_drift_creates_turnover_even_when_target_unchanged (test_research.ResearchChecks.test_price_drift_creates_turnover_even_when_target_unchanged) ... ok
+test_price_loader_rejects_missing_and_unsorted_data (test_research.ResearchChecks.test_price_loader_rejects_missing_and_unsorted_data) ... ok
+test_synthetic_reproducible (test_research.ResearchChecks.test_synthetic_reproducible) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.163s
+
+OK

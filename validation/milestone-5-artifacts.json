@@ -1,0 +1,89 @@
+{
+  "verified_utc": "2026-09-22T00:42:39.114745+00:00",
+  "status": "passed",
+  "final_scenarios": 22,
+  "sessions_per_ledger": 1508,
+  "saved_ledgers_reconciled": 22,
+  "numerical_output_hashes_verified": 48,
+  "unaffected_initial_hashes_reproduced": 47,
+  "artifact_repair": "verified; initial manifest retained",
+  "feature_rows": 4524,
+  "diagram_bound_checks": 288,
+  "interactive_frames": 72,
+  "landscape_samples_verified": 144360,
+  "slider_dates_match_frames": true,
+  "pngs": {
+    "13-final-performance.png": {
+      "pixels": [
+        2040,
+        1360
+      ],
+      "sha256": "6613bedf38afc3e3a3393488b1f87b9a8231a74ae40a74c90f0dbe718c43b84b"
+    },
+    "14-final-inference.png": {
+      "pixels": [
+        1972,
+        816
+      ],
+      "sha256": "cef746a7c182e94c8de033df5bd8a8136d905fd7f63463a0dc37373621090fa5"
+    },
+    "15-final-costs.png": {
+      "pixels": [
+        2040,
+        884
+      ],
+      "sha256": "5dbe01dee2a78c7c7c092124637f00b93f2c67d52b7b6e070286b06deaa73ba2"
+    },
+    "16-final-topology-transfer.png": {
+      "pixels": [
+        2040,
+        884
+      ],
+      "sha256": "eb6d01f659657567e68a9a3bda32988b516077989ce48bb38b9cb2db3a37126a"
+    }
+  },
+  "manuscript_counts": {
+    "equation": 30,
+    "table": 27,
+    "listing": 15,
+    "figure": 16
+  },
+  "harvard_references": 24,
+  "notebooks": {
+    "01-foundations.ipynb": {
+      "executed_code_cells": 8,
+      "error_outputs": 0
+    },
+    "02-historical-baseline.ipynb": {
+      "executed_code_cells": 7,
+      "error_outputs": 0
+    },
+    "03-graph-comparison.ipynb": {
+      "executed_code_cells": 9,
+      "error_outputs": 0
+    },
+    "04-topology-features.ipynb": {
+      "executed_code_cells": 10,
+      "error_outputs": 0
+    },
+    "05-final-evaluation.ipynb": {
+      "executed_code_cells": 10,
+      "error_outputs": 0
+    }
+  },
+  "focused_tests": 41,
+  "decision_log_milestones": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "pdf_compiled": false,
+  "final_test_now_observed": true,
+  "post_test_model_selection": false,
+  "evidence_conditions_met": 0,
+  "protocol_sha256": "8fdee505de9ceaa8e4a2951deba29c1305eb12ee64d2d42467a978e2805c2acd",
+  "input_sha256": "040f3199669d24009b848b5d1112321a70b7cb8084cb84fce6d6878a33abdcdd",
+  "browser_interaction": "Not executed here; frame values and control configuration verified"
+}

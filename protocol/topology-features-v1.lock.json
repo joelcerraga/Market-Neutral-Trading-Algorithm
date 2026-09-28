@@ -1,0 +1,6 @@
+{
+  "protocol_id": "topology-features-v1",
+  "sha256": "2b2d975392129a88ea10b5955dd9405be46d49ba2860f7d0e9872b0e76c926d1",
+  "locked_utc": "2026-09-21T23:33:08.276219+00:00",
+  "scope": "Recorded before first historical topology computation; earlier strategy outcomes known; not an external preregistration"
+}

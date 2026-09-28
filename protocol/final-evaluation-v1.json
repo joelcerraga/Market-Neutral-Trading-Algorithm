@@ -1,0 +1,176 @@
+{
+  "protocol_id": "final-evaluation-v1",
+  "milestone": 5,
+  "purpose": "Retrospectively reserved 2020\u20132025 evaluation of the fixed graph reversal against baseline; no new trading rule or post-test selection",
+  "locked_before_holdout_acquisition": true,
+  "holdout_release": true,
+  "previous_protocols": {
+    "historical-v1": "44735b120f38a1df806fe5f407202523b5ee8eef80755a564d648c914c75ec36",
+    "graph-comparison-v1": "a6ab0eb4f93141acc08d8937c08a57f12c0c057ffe49d43b4c4296b5ada55a35",
+    "topology-features-v1": "2b2d975392129a88ea10b5955dd9405be46d49ba2860f7d0e9872b0e76c926d1"
+  },
+  "original_input_sha256": "3dd0372d45d3939a8ade9fa218d5ec8c2fbe00ce0435c3a1c69672e756d3c2c5",
+  "frozen_source_sha256": {
+    "market_neutral/config.py": "0cffe4f0a7f77b6453275598118d345d89dcffdb29d78400bee4fb475a4f7d5c",
+    "market_neutral/data.py": "9fd4b75c17f8c07c6e5f4faed42fe0b83ea1ec9a22a8578e58bc40805fcdeb50",
+    "market_neutral/strategy.py": "ecb20de15daaec260e6de50483d03a9d5a92e69f7a86c5787985a2bf7406501a",
+    "market_neutral/graph.py": "ae8c54e1825ffc4aedd3af9c20e9145afc78d21957ba6be26ac3d5f977de3493",
+    "market_neutral/portfolio.py": "9ce43cb1658f51c6057c00d5b89446818fd9ded5ca81193c405e9669299bd400",
+    "market_neutral/backtest.py": "441869cd4b93f7d701625d829d1a7d61df626696dfc5f9c41797321c31a0ea9a",
+    "market_neutral/inference.py": "e52cecdb00e30a4a563541a2248dbc0ed66a2c94b52ca3cec35dd38d50adc1bf",
+    "market_neutral/topology.py": "c8541d38f8645fa765d2705101e0f3616d1bc27d2ed6f0443b97a5033ddc643a"
+  },
+  "topology_control_models_sha256": "af2b16acd1fccb32f9be06d751f7087c19ff5ef0ac1b19ceb9fe2e8614138fa9",
+  "universe": {
+    "Technology": [
+      "AAPL",
+      "MSFT",
+      "IBM",
+      "ORCL"
+    ],
+    "Financials": [
+      "JPM",
+      "BAC",
+      "WFC",
+      "GS"
+    ],
+    "Energy": [
+      "XOM",
+      "CVX",
+      "COP",
+      "SLB"
+    ],
+    "Healthcare": [
+      "JNJ",
+      "PFE",
+      "MRK",
+      "UNH"
+    ],
+    "Consumer retail": [
+      "WMT",
+      "COST",
+      "TGT",
+      "HD"
+    ],
+    "Consumer brands": [
+      "KO",
+      "PEP",
+      "MCD",
+      "SBUX"
+    ]
+  },
+  "benchmark": "SPY",
+  "provider": "Yahoo Finance chart endpoint",
+  "field": "adjclose",
+  "download_start": "2018-12-31",
+  "download_end_exclusive": "2026-01-01",
+  "warmup": "2019 daily returns with 2018-12-31 anchor price; no splice with the earlier adjusted-price vintage",
+  "test_period": [
+    "2020-01-01",
+    "2025-12-31"
+  ],
+  "calendar": "Require exact common observed SPY calendar for every stock; no forward filling, intersection, asset substitution or return-driven truncation",
+  "data_review": {
+    "overlap_period": [
+      "2018-12-31",
+      "2019-12-31"
+    ],
+    "overlap_max_abs_daily_return_difference": 1e-05,
+    "absolute_daily_return_flag": 0.4,
+    "action": "Stop before evaluation if missing/nonpositive data, calendar mismatch, overlap return difference above 0.1 bp, or absolute adjusted return above 40%; investigate and document any amendment before strategy evaluation"
+  },
+  "cache": "data/final-cache (separate from original frozen cache)",
+  "config": {
+    "assets": 24,
+    "sectors": 6,
+    "correlation_window": 126,
+    "beta_window": 126,
+    "volatility_window": 63,
+    "signal_window": 5,
+    "neighbours": 5,
+    "minimum_correlation": 0.2,
+    "diffusion_time": 1.0,
+    "gross_limit": 1.0,
+    "position_limit": 0.08,
+    "trading_cost_bps": 5.0,
+    "annual_borrow_rate": 0.02,
+    "initial_capital": 100000.0,
+    "annualisation": 252
+  },
+  "primary_model": "graph_tau_1",
+  "comparator": "baseline",
+  "topology_overlay": false,
+  "topology_decision": "Retain descriptors only: H0 strongly overlaps simple correlation and H1 is window-sensitive; no direction/threshold/overlay is justified by completed diagnostics. This decision is made before test data acquisition.",
+  "cost_scenarios_bps": [
+    0.0,
+    5.0,
+    10.0,
+    20.0
+  ],
+  "diffusion_times": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "borrow_sensitivity": [
+    0.0,
+    0.02,
+    0.05
+  ],
+  "scenario_rule": "16 models x fees cases at 2% borrow (baseline plus three diffusion settings), four extra baseline/primary-graph borrow cases at 5 bps, and two matched-gross cases at 5 bps/2% borrow; retain all 22; no winner promotion",
+  "expected_scenarios": 22,
+  "exposure_control": "Scale both primary decision portfolios down to the smaller of their two gross exposures before the existing execution delay; no leverage-up or volatility matching",
+  "execution": "Decision close t, execution close t+1, first new-position return close t+2; shift before test slicing; start flat at USD100000; liquidate at final observed close; do not reset annually",
+  "inference": {
+    "family": [
+      "baseline_net_mean",
+      "graph_net_mean",
+      "graph_minus_baseline_mean"
+    ],
+    "estimand": "252 times arithmetic daily mean, not CAGR; zero-cash-rate no-trade benchmark for the first two means",
+    "stationary_bootstrap_replicates": 10000,
+    "block_lengths": [
+      5,
+      10,
+      20
+    ],
+    "primary_block_length": 10,
+    "seed": 20260922,
+    "paired_resampling": "Use the same bootstrap index matrix for baseline, graph and their paired difference; seed = seed + block_length",
+    "pointwise_confidence": 0.95,
+    "family_alpha": 0.05,
+    "family_method": "Bonferroni: each of three two-sided intervals at 1 - 0.05/3; approximate joint coverage depends on validity of the marginal bootstrap intervals",
+    "hac_lags": 10,
+    "hac_role": "Cross-check of the same three arithmetic means with pointwise and Bonferroni-adjusted normal intervals; never choose between estimators after results",
+    "matched_gross": "Report paired difference with pointwise 95% stationary-bootstrap block length10, seed+1000, and HAC10; secondary descriptive diagnostic, not an additional claim chosen after results",
+    "limitations": "Conditional on observed policies and survivor basket, with approximate weak-dependence/stationarity assumptions. No strategy refitting or price reconstruction within resamples; no retrospective correction for universe selection or all previous research decisions."
+  },
+  "evidence_gate": {
+    "positive_compound_return": "primary graph CAGR > 0 at 5 bps/2% borrow",
+    "positive_absolute_mean": "block10 Bonferroni lower bound for graph net arithmetic mean > 0",
+    "positive_incremental_mean": "block10 Bonferroni lower bound for graph-minus-baseline arithmetic mean > 0",
+    "matched_gross_robustness": "block10 pointwise lower bound for matched graph-minus-baseline mean > 0",
+    "decision": "All four are necessary for limited positive evidence within this sample. Failure means the predefined evidence criterion is not met; passing still does not establish deployability, population alpha or a point-in-time strategy."
+  },
+  "diagnostics": "Report complete-period metrics, every calendar-year contribution without resetting positions, cost decomposition, turnover, exposures and rolling63-session realised beta; no year exclusions",
+  "topology_transfer": {
+    "windows": [
+      63,
+      126,
+      252
+    ],
+    "primary_window": 126,
+    "features": [
+      "h0_mean",
+      "h0_max",
+      "h1_total",
+      "h1_max"
+    ],
+    "models": "Apply frozen development-only means/scales/coefficients from Milestone4 without refitting",
+    "comparisons": "All feature-control Spearman correlations and descriptor R2, all alternate-window rank correlations and monthly diagram bounds; no return targets, trading overlay or inferential significance claims",
+    "interactive": "Monthly primary-window H1 landscapes and paired diagrams for all 2020\u20132025 months; fixed display scales, five visual layers"
+  },
+  "known_information": "Development and validation prices, strategies and topology findings were already seen. Historical 2020\u20132025 market events are publicly known; the basket was selected retrospectively from survivors. Reserved refers to project workflow, not an externally blind prospective test.",
+  "after_release": "The test becomes observed permanently. No revision of parameters, primary model, feature set, inference settings or outcome dates based on test results. Future hypothesis revisions need newly reserved evidence.",
+  "registration": "Local hashed record only; not external preregistration"
+}

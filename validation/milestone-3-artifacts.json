@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "protocol_sha256": "a6ab0eb4f93141acc08d8937c08a57f12c0c057ffe49d43b4c4296b5ada55a35",
+  "input_sha256": "3dd0372d45d3939a8ade9fa218d5ec8c2fbe00ce0435c3a1c69672e756d3c2c5",
+  "completed_scenarios": 44,
+  "baseline_reproduced": true,
+  "ledger_reconciliations": 44,
+  "automated_tests": 25,
+  "notebook_code_cells": 9,
+  "pdf_pages": 30,
+  "paper_counts": {
+    "Table": 14,
+    "Figure": 8,
+    "Equation": 21,
+    "Listing": 8
+  },
+  "scholarly_references": 17,
+  "data_provider_references": 1,
+  "pdf_review": "All 30 pages rendered and visually inspected. Primary results, stationary-bootstrap code and HAC equations checked at higher resolution.",
+  "interactive_frames": 120,
+  "interactive_checks": "Serialized graph/score values, constant display coordinates, date steps, Play/Pause and embedded JavaScript verified. The notebook also compares the last rendered graph and scores against the strategy calculations.",
+  "environment_limitations": "No local browser runtime or kernel socket support. Browser interaction and VS Code kernel connectivity were not tested; notebook code ran sequentially in IPython.",
+  "uncertainty_seed_schedule": {
+    "development": {
+      "5": 20260926,
+      "10": 20260931,
+      "20": 20260941
+    },
+    "validation": {
+      "5": 20261026,
+      "10": 20261031,
+      "20": 20261041
+    }
+  },
+  "final_holdout_evaluated": false,
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "plotly": "7.1.0",
+    "reportlab": "4.4.9",
+    "nbformat": "5.11.1",
+    "IPython": "9.17.1"
+  }
+}
