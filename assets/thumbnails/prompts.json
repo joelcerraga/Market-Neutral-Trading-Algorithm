@@ -1,0 +1,19 @@
+{
+  "method": "Built-in image generation",
+  "purpose": "Conceptual website and social-preview covers; not research figures",
+  "style_reference": "https://github.com/joelcerraga/SPX-Density-Research/blob/main/SPX-Landing-Page-Thumbnail-White.jpg",
+  "assets": [
+    {
+      "file": "market-neutral-research.png",
+      "width": 1774,
+      "height": 887,
+      "prompt": "Use case: ads-marketing. Create a polished website/social thumbnail for Joel Cerraga's Market-Neutral Trading Algorithm research. Use the supplied SPX thumbnail ONLY as a visual style reference: white background, deep navy type, restrained teal/cyan geometry and one thin warm gold accent. This is a new companion design, not an SPX image. Wide 2:1 composition, ideally 1800x900, with generous safe margins. Left half: beautifully typeset clean bold sans-serif typography with the EXACT text \"MARKET-NEUTRAL\" on one or two lines, then \"TRADING ALGORITHM\". Small upper label \"QUANTITATIVE RESEARCH\". Beneath the title the exact subtitle \"Signals. Networks. Evidence.\" Bottom-left small author credit \"Joel Cerraga\". Right half: an elegant abstract three-dimensional network of connected nodes, subtly balanced above and below a horizontal zero plane, over a faint perspective grid; a delicate gold connection adds focus. Crisp editorial financial-research identity. No numeric axes, no stock prices, no invented performance charts or profitability claims, no logos, no dark background. This network is decorative, not a scientific result. Keep all lettering fully in frame and legible at thumbnail scale."
+    },
+    {
+      "file": "interactive-graphs.png",
+      "width": 1774,
+      "height": 887,
+      "prompt": "Use case: ads-marketing. Create a polished website/social thumbnail for the Interactive Graphs section of Joel Cerraga's Market-Neutral Trading Algorithm research. Use the supplied SPX thumbnail ONLY as a visual style reference: pure white background, deep navy and teal bold typography, airy scientific 3D geometry, a single subtle gold accent. New companion design; do NOT write SPX anywhere. Wide 2:1 composition, ideally 1800x900 with generous safe margins. Left half exact typography: small upper label \"MARKET-NEUTRAL RESEARCH\", then large bold stacked title \"INTERACTIVE\" and \"GRAPHS\". Below it smaller exact text \"Explore the structure of markets\". Bottom-left small author credit \"Joel Cerraga\". Right half an elegant abstract 3D persistence landscape made from several crisp translucent teal triangular tent ridges of varied heights, arranged in parallel ranked layers on a faint perspective grid; a thin gold ridge is highlighted. A small sparse network of teal nodes may blend subtly behind it. These are conceptual cover graphics, not measured data. No numeric labels, no stock prices, no invented performance results, no logos, no dark background. Match the restrained white/navy/teal visual family of the reference. Keep all text fully inside the safe area and legible at small size."
+    }
+  ]
+}

@@ -77,3 +77,24 @@ For manuscript changes, edit `paper/sections/`, install `requirements-paper.txt`
 `run_research.py` is the synthetic foundation; `run_historical.py` the baseline; `run_comparison.py` the 44 earlier comparison cases; and `run_topology.py` the original descriptor study. Read notebooks 01–04 in order for their historical context. The fifth stage has now consumed the reserved test period; historical references to an untouched holdout describe that earlier stage only.
 
 Use the GitHub archive for the repository and keep the Complete archive for personal replay. [Release notes](docs/release-notes.md) record the packaging decisions and remaining limitations.
+
+## 8. Research website and interactive graph pages
+
+The current repository contains a landing page, an explorer gallery and four dedicated graph pages. From the repository root, serve them locally with:
+
+```bash
+python -m http.server 8000
+```
+
+Open `http://localhost:8000/` in a browser. The static pages are already built. Each explorer page has a **Load interactive graph** button and a standalone link; JavaScript and WebGL support are needed for the 3D controls. The original HTML artifacts remain unchanged under `outputs/`.
+
+With the research dependencies installed, rebuild and check the website using:
+
+```bash
+python scripts/build_site.py
+python scripts/verify_site.py
+```
+
+The builder reads saved graph snapshots and figures; it does not acquire data or rerun trading experiments. Edit `scripts/build_site.py` for lasting page-copy changes, and `assets/site.css` / `assets/site.js` for presentation. The two white-background social covers are in `assets/thumbnails/`; their generation prompts and purpose are recorded alongside them. These conceptual covers are distinct from the exact-data SVG previews in `assets/previews/`.
+
+After reviewing intentional repository edits, `python scripts/refresh_release_manifest.py` updates the current checkout's package manifest; `python scripts/verify_release.py` verifies it. This refresh does not change any experiment protocol lock or historical validation record. Keep the previous commit as the record of the earlier release.

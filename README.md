@@ -6,6 +6,8 @@ A reproducible Python study of constrained equity reversal, graph diffusion and 
 
 ## Start here
 
+Visit the [research landing page](https://joelcerraga.github.io/Market-Neutral-Trading-Algorithm/) or the [interactive graph gallery](https://joelcerraga.github.io/Market-Neutral-Trading-Algorithm/explorers/). The static website is supplied in this repository and is served when GitHub Pages is enabled for `main` / root.
+
 1. Read the [final paper](paper/final/Market-Neutral-Trading-Algorithm-Final-Paper.pdf), including its discussion and conclusion, or the [concise findings](outputs/final/milestone-5-results.md).
 2. Open the [executed final notebook](notebooks/05-final-evaluation.ipynb) for the walkthrough, implementation excerpts and replay checks.
 3. Download and open the [final 3D explorer](outputs/final/topology/Final-Test-Landscape-Explorer.html) in a browser for 72 monthly landscapes and paired birth–death diagrams. Rotation, zoom, hover, a date slider and playback are included; JavaScript is embedded for offline use. GitHub's file preview does not run the explorer.
@@ -96,6 +98,8 @@ The release keeps byte-for-byte hashes and disables Git line-ending conversion t
 | `.github/workflows/` | Focused test suite configured for pushes and pull requests |
 | `docs/OUTPUTS.md`, `docs/output-inventory.csv` | Browsable output guide and exhaustive output checksums |
 | `scripts/package_release.py` | Reproducible archive builder |
+| `index.html`, `explorers/` | Research landing page, graph gallery and four dedicated explorer pages |
+| `assets/`, `scripts/build_site.py` | Site styling, data-derived previews, two white-background social thumbnails and the site builder |
 
 ## Writing and remaining work
 
@@ -106,6 +110,8 @@ The final paper maintains 30 numbered equations, 27 tables, 16 figures, 15 code 
 `paper/update_manuscript.py` refreshes the editable text. `paper/assemble_final_paper.py` prepares and compiles the final typesetting source. Presentation checks are recorded in `validation/final-paper-validation.json`; they do not change the frozen strategy or its results.
 
 The completed study is published in this repository. Future strategy revisions require newly reserved evidence; the 2020–2025 results cannot be reused as an untouched test.
+
+The website presents the frozen results without rerunning the study. Its four embedded explorers load the original HTML artifacts unchanged. `python scripts/build_site.py` regenerates the six pages and preview figures from saved data; `python scripts/verify_site.py` checks navigation, social metadata and preservation of all research outputs. See the website section in `START_HERE.md` and the [website milestone notes](docs/website-milestone.md).
 
 ## References
 

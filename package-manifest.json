@@ -4,7 +4,7 @@
   "profile": "github",
   "project": "Market-Neutral-Trading-Algorithm",
   "scope": "Every packaged file except package-manifest.json",
-  "file_count_including_manifest": 329,
+  "file_count_including_manifest": 352,
   "output_count": 175,
   "notebook_count": 5,
   "interactive_html_count": 4,
@@ -22,17 +22,61 @@
       "bytes": 374,
       "sha256": "797c9ca08813e322bcfc4bf54f0ed337a4733900821c3ca95edf7ab4f1ae537d"
     },
+    ".nojekyll": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
     "PACKAGE_README.md": {
       "bytes": 597,
       "sha256": "33ac9c00f8d590b09a245b4750548309de3d61e9f01ab544be3c1a6089b37a8f"
     },
     "README.md": {
-      "bytes": 12140,
-      "sha256": "031df58f58bf7d09e538ea04b7fd86444a9321ef7094ed078354b40b84835e33"
+      "bytes": 13155,
+      "sha256": "f865a67b9fd4a8eaca09f052499f1818adaf8825e427719bdf4cb79681d684a2"
     },
     "START_HERE.md": {
-      "bytes": 6645,
-      "sha256": "57bc6102783bc9cbae5a5258f6d73d7dd9bfeee0ee2f4a5d4d93d2daffca87cb"
+      "bytes": 8126,
+      "sha256": "5d6df4058b9f53cc49cffc6d4b771cf0d0236bc9f50283a2dc29df149f94dc1d"
+    },
+    "assets/favicon.svg": {
+      "bytes": 382,
+      "sha256": "11a49fc6c29b974b70824d33110d97c95cc106fc0711a1cf40ae09daec3f02c7"
+    },
+    "assets/previews/correlations.svg": {
+      "bytes": 130391,
+      "sha256": "a7ed7563318b2bf78d3293a0a981171818f5106866240c1fab163f4c8aafdd14"
+    },
+    "assets/previews/final-test-landscapes.svg": {
+      "bytes": 64184,
+      "sha256": "6bd30fb692faac55ff19202f3c8e36cd42bd37e96ec10f17df77e155bb6faf79"
+    },
+    "assets/previews/graph-diffusion.svg": {
+      "bytes": 46729,
+      "sha256": "1c38fa6a331fe394c6e4c4015396ba3a5ff977496aca2cbdcffe398d25646724"
+    },
+    "assets/previews/persistence-landscapes.svg": {
+      "bytes": 63031,
+      "sha256": "8903bc1b6fd365bcbce625f2639b60aa354f5c88580aa065a2907585d244e0e0"
+    },
+    "assets/site.css": {
+      "bytes": 11866,
+      "sha256": "511c454e773fd96116f5988063fb5126227043626f5b599ab46e703228351262"
+    },
+    "assets/site.js": {
+      "bytes": 2188,
+      "sha256": "ba11bbb24447f0b24a735e1cc4b8281de6d7f4872d75699d9350ae8194743bb2"
+    },
+    "assets/thumbnails/interactive-graphs.png": {
+      "bytes": 1555001,
+      "sha256": "0249915285c173be49e90cfac5ceabf5f9689ef3ca3527be628da2a480f49771"
+    },
+    "assets/thumbnails/market-neutral-research.png": {
+      "bytes": 1641786,
+      "sha256": "e5508cb5086d71a9278b931615f9b5528b28cfdef35d6cb135aabdae074fdeda"
+    },
+    "assets/thumbnails/prompts.json": {
+      "bytes": 3022,
+      "sha256": "71f07c19d6e71a836a34307edb81db27bca7e607948fd661adc9e0d31c76abc3"
     },
     "data/README.md": {
       "bytes": 2939,
@@ -74,6 +118,30 @@
       "bytes": 5674,
       "sha256": "9ae0cbc9f9bedf1f16de0021963ceb780bde5d4992f20e021af5a0d1a9219809"
     },
+    "docs/website-milestone.md": {
+      "bytes": 4508,
+      "sha256": "a30fcefd3f639611eda08050656dcb3b833a17ac7182ab4ed22cc0e18a2c3fca"
+    },
+    "explorers/correlations/index.html": {
+      "bytes": 7281,
+      "sha256": "bdef020a0eb68bb09395c64bcff71e87149759010a999425cf6caa0e095557d7"
+    },
+    "explorers/final-test-landscapes/index.html": {
+      "bytes": 7593,
+      "sha256": "030f3e3cbcdd1f22c377042c9290eb4885342afe5bb270eae99721249833489b"
+    },
+    "explorers/graph-diffusion/index.html": {
+      "bytes": 7412,
+      "sha256": "67a3c3e81d9b8afefd6637a518c7a37fd0905c153504ce109fbd3bd81e18f325"
+    },
+    "explorers/index.html": {
+      "bytes": 7195,
+      "sha256": "0892e9f0e7ee8f460346c99ff50f4900dc63e34494183ff31ad6ae6009854655"
+    },
+    "explorers/persistence-landscapes/index.html": {
+      "bytes": 7546,
+      "sha256": "c5a71610538f93a724620b995bdec76cbeb61508404fde28530b609f6c5e9647"
+    },
     "fetch_final.py": {
       "bytes": 325,
       "sha256": "94ec1b31d14321ea3bac26c0711b3bb9c7188fd8ca43d1defc466b08428a1ccd"
@@ -81,6 +149,10 @@
     "fetch_historical.py": {
       "bytes": 583,
       "sha256": "532d9d3dddfd8b785bb0423bec86f825db05a7fc2eb67dcd36c821876f04ec64"
+    },
+    "index.html": {
+      "bytes": 12701,
+      "sha256": "ac1388d036828e887223abd6823f4c15ac1157f20207c4bcadd028e65a51a185"
     },
     "market_neutral/__init__.py": {
       "bytes": 98,
@@ -1150,6 +1222,10 @@
       "bytes": 531,
       "sha256": "50208e38d471f7eb81ac87131d1e3270a46edea704762dbf0f45e9309b11bc74"
     },
+    "scripts/build_site.py": {
+      "bytes": 28303,
+      "sha256": "66e858a080d5333d649f19e512a33269e173d39f95f35f5c72dc8762688f7ad8"
+    },
     "scripts/create_final_notebook.py": {
       "bytes": 16284,
       "sha256": "eb33e65c8520f95a10c74a6cb206039b319a791b04a9c0f13ac01b931a1d6430"
@@ -1174,6 +1250,10 @@
       "bytes": 6991,
       "sha256": "837fc490b92854ac77251593971783a0546fb9235024fa7e91675cb88073ab90"
     },
+    "scripts/refresh_release_manifest.py": {
+      "bytes": 844,
+      "sha256": "8a44a4c3ae83dc64364c16ae2ccba75e04b79a96d0e8ce68d31eb4885baf5268"
+    },
     "scripts/render_final_paper.py": {
       "bytes": 2996,
       "sha256": "2293d1efa43b553608c40423e0fb92ccca94d8d638074750ede3bc83aac74f94"
@@ -1193,6 +1273,14 @@
     "scripts/verify_release.py": {
       "bytes": 2435,
       "sha256": "0240161e24b86b3f630f40802c3e7de34c7a36f9d2dd8f75110929f10566b230"
+    },
+    "scripts/verify_site.py": {
+      "bytes": 2784,
+      "sha256": "fdacde3d1efbc6422eea6c72a5cc75c892d055c22a889b8987a1a94e6c1c4d00"
+    },
+    "sitemap.xml": {
+      "bytes": 743,
+      "sha256": "96cb74d5de5d46ee9111c6405c2faacf25c5edf8ffd84accd1890cd03fe16ecf"
     },
     "tests/test_comparison.py": {
       "bytes": 3833,
@@ -1321,6 +1409,10 @@
     "validation/unittest.txt": {
       "bytes": 1989,
       "sha256": "79f754c2addf3a48cec4b701eaf06aa112aa7a86d06a0f11c8ace26ce141a7b8"
+    },
+    "validation/website-validation.json": {
+      "bytes": 1339,
+      "sha256": "fff022be8bab7bc3636fdeb7a903d0c9b81d2329978e1c67e314e1ab01858421"
     }
   }
 }

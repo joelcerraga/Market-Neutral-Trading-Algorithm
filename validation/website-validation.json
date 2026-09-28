@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-09-28",
+  "base_research_commit": "3282ac3bb79412811aa2b72b2f25f763054440fd",
+  "static_checks": {
+    "status": "passed",
+    "pages": 6,
+    "local_links_checked": 129,
+    "social_thumbnails": 2,
+    "unchanged_research_outputs": 175
+  },
+  "javascript_syntax": "passed",
+  "protected_research_paths": {
+    "status": "unchanged",
+    "paths": [
+      "market_neutral",
+      "tests",
+      "protocol",
+      "notebooks",
+      "outputs",
+      "paper",
+      "data"
+    ],
+    "output_hashes_verified_against_base_commit": 175
+  },
+  "browser_checks": {
+    "status": "pending_publication",
+    "desktop_visual_review": "not_run",
+    "mobile_visual_review": "not_run",
+    "interactive_3d_controls": "not_run",
+    "blocker": "The local Playwright browser is absent and official downloads returned an unavailable HTML response. The cloud browser blocks localhost and local-file previews.",
+    "next_check": "Review all six pages and the four embedded graphs at the public GitHub Pages URL after Pages is enabled."
+  },
+  "publication": {
+    "site_files": "ready",
+    "github_pages": "requires_repository_settings",
+    "source": "main / (root)"
+  },
+  "research_tests": "Not rerun for the presentation-only change; the existing 41-test research workflow remains in the repository."
+}
